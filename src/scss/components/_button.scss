@@ -1,21 +1,36 @@
 $main-button:$dark-green;
 $main-button-hover:rgb(9, 65, 9);
  
-.button{
-    width: 100%;
-    display: inline-block;
-    padding:10px 25px;
+.button{ 
+    padding:22px 53px;
+    @include md {
+      padding:25px 70px;
+    }
+    @include lg {
+      padding:27px 97px;
+    }
     background-color: $main-button;
-    border:solid $main-button;
-    font-size: 24px;
+    border:solid $main-button; 
     color:white;
     border-radius: 4px;
       cursor: pointer;
-  }
-  
-  .button:hover{
-    color:$green;
-    background-color: white;
+      font-family: IBM Plex Mono;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 1.2;
+      letter-spacing: 0em;
+      text-align: center; 
+      text-transform: uppercase;
+     &:hover{ 
+        background-color: lighten($dark-green , 10%);
+        border-color: lighten($dark-green , 10%);
+      }
+    
+      &:active{
+        background-color: lighten($dark-green , 15%);
+        border-color:lighten($dark-green , 15%);
+      }
   }
   
   
