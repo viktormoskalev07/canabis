@@ -24,6 +24,7 @@
     }
 
     &__item {
+        z-index: 5;
         text-transform: uppercase;
         display:  inline-block;
         text-align: left;  
