@@ -1,70 +1,122 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-  
-  <meta charset="UTF-8">
-  <title>Amazing page</title>
-  <link rel="stylesheet" href="css/main.css">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<head> 
+   <meta charset="UTF-8">
+   <title>Amazing page</title>
+   <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 </head>
 
-<body class="body">
-<div class="main-wrapper">
-  <div class="header-place"></div>
-<header class="header">
-    
-    <div class="container ">
-
+<body class="body"> 
+    <div class="main-wrapper">
+       <main class="main"> 
+     
+  
+ 
+         <section class="section  hero">
+            <div class="hero-overlay">
+               <div class="container">
+                  <div class="pl-92-lg">
+                     <header class="header"> 
 <div class="header-content">
     <div class="logo"><a href="#"><img src="images/logo.png" alt="Logo"></a></div>
-
+    <div class="logo-mobile"><a href="#"><img src="images/logo-mobile.png" alt="Logo"></a></div> 
     <nav class="nav">
-    <div class="nav-menu">
-        <a href="#test1" class="nav-item"> menu 1</a>
-        <a href="#test2" class="nav-item"> menu 2</a>
-        <a href="#test3" class="nav-item"> menu 3</a>
-        <a href="#test4" class="nav-item"> menu 4</a>
-        <a href="#test5" class="nav-item"> menu 5</a>
-    </div>
-   
- <div class="nav-background"></div>
- <div class="btn-menu">
-    <div class="btn-menu-row"></div>
-    <div class="btn-menu-row"></div>
-    <div class="btn-menu-row"></div>
-</div>
+    <div class="nav__menu"> 
+        <div class="button-place"></div>
+        <div class="nav__centered">
+        <button class="nav__item dropdown__activator"> categories  <img class='dropdown__icon' src="images/icons/dropdown-arrow.svg" alt=""></button>
+        <div class="dropdown">
+            <a href="accessories.html" class="nav__item"> Accessories</a>
+            <a href="#test3" class="nav__item"> drop2</a>
+            <a href="#test4" class="nav__item"> drop3</a> 
+        </div>
+        <a href="#test2" class="nav__item"> blog</a>
+        <a href="#test3" class="nav__item"> contact</a>
+        <a href="#test4" class="nav__item"> Reviews</a> 
+        </div>
+ 
+      <ul class="nav__social list">   
+            <li class="nav-social__item">  <a href="#"> <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.9997 2.88202C28.0531 3.20225 26.7909 3.52247 25.5287 3.84269C26.7909 3.20225 27.7375 1.92135 28.0531 0.640449C26.7909 1.2809 25.5287 1.92135 24.2665 1.92135C23.3199 0.640449 22.0577 0 20.1644 0C17.0089 0 14.4845 2.5618 14.4845 5.76404C14.4845 6.08427 14.4845 6.72472 14.4845 7.04494C9.75134 6.72472 5.33368 4.48315 2.49375 0.960674C1.86266 1.92135 1.86266 2.88202 1.86266 3.84269C1.86266 5.76404 2.80929 7.68539 4.38703 8.64606C3.44039 8.64606 2.49375 8.32584 1.86266 8.00562C1.86266 10.8876 3.75594 13.1292 6.59587 13.7697C5.96477 13.7697 5.64922 14.0899 5.01813 14.0899C4.70258 14.0899 4.38704 14.0899 4.07149 14.0899C4.70258 16.3315 6.91142 18.2528 9.4358 18.2528C7.54251 19.8539 5.01814 20.8146 2.17821 20.8146C1.86266 20.8146 1.23156 20.8146 0.916016 20.8146C3.44039 22.4157 6.59587 23.3764 9.75134 23.3764C20.4799 23.3764 26.1598 14.4101 26.1598 6.40449V5.76404C27.1064 5.12359 28.0531 3.8427 28.9997 2.88202Z"  />
+                </svg>
+                </a>
+            </li>
+            <li class="nav-social__item">  <a href="#"> <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.9997 2.88202C28.0531 3.20225 26.7909 3.52247 25.5287 3.84269C26.7909 3.20225 27.7375 1.92135 28.0531 0.640449C26.7909 1.2809 25.5287 1.92135 24.2665 1.92135C23.3199 0.640449 22.0577 0 20.1644 0C17.0089 0 14.4845 2.5618 14.4845 5.76404C14.4845 6.08427 14.4845 6.72472 14.4845 7.04494C9.75134 6.72472 5.33368 4.48315 2.49375 0.960674C1.86266 1.92135 1.86266 2.88202 1.86266 3.84269C1.86266 5.76404 2.80929 7.68539 4.38703 8.64606C3.44039 8.64606 2.49375 8.32584 1.86266 8.00562C1.86266 10.8876 3.75594 13.1292 6.59587 13.7697C5.96477 13.7697 5.64922 14.0899 5.01813 14.0899C4.70258 14.0899 4.38704 14.0899 4.07149 14.0899C4.70258 16.3315 6.91142 18.2528 9.4358 18.2528C7.54251 19.8539 5.01814 20.8146 2.17821 20.8146C1.86266 20.8146 1.23156 20.8146 0.916016 20.8146C3.44039 22.4157 6.59587 23.3764 9.75134 23.3764C20.4799 23.3764 26.1598 14.4101 26.1598 6.40449V5.76404C27.1064 5.12359 28.0531 3.8427 28.9997 2.88202Z"  />
+                </svg>
+                </a>
+            </li>
+            <li class="nav-social__item">  <a href="#"> <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28.9997 2.88202C28.0531 3.20225 26.7909 3.52247 25.5287 3.84269C26.7909 3.20225 27.7375 1.92135 28.0531 0.640449C26.7909 1.2809 25.5287 1.92135 24.2665 1.92135C23.3199 0.640449 22.0577 0 20.1644 0C17.0089 0 14.4845 2.5618 14.4845 5.76404C14.4845 6.08427 14.4845 6.72472 14.4845 7.04494C9.75134 6.72472 5.33368 4.48315 2.49375 0.960674C1.86266 1.92135 1.86266 2.88202 1.86266 3.84269C1.86266 5.76404 2.80929 7.68539 4.38703 8.64606C3.44039 8.64606 2.49375 8.32584 1.86266 8.00562C1.86266 10.8876 3.75594 13.1292 6.59587 13.7697C5.96477 13.7697 5.64922 14.0899 5.01813 14.0899C4.70258 14.0899 4.38704 14.0899 4.07149 14.0899C4.70258 16.3315 6.91142 18.2528 9.4358 18.2528C7.54251 19.8539 5.01814 20.8146 2.17821 20.8146C1.86266 20.8146 1.23156 20.8146 0.916016 20.8146C3.44039 22.4157 6.59587 23.3764 9.75134 23.3764C20.4799 23.3764 26.1598 14.4101 26.1598 6.40449V5.76404C27.1064 5.12359 28.0531 3.8427 28.9997 2.88202Z"  />
+                </svg>
+                </a>
+            </li>
+        </ul>
+    </div> 
+ <button class="btn-menu">
+    <div class="btn-menu__row"></div>
+    <div class="btn-menu__row"></div>
+    <div class="btn-menu__row"></div>
+</button>
 
 </nav>
-
-    
-
+ 
 </div>
-
-
-</div>
+ 
 </header>
 
+                     <div class="hero-container">
+                        <h2 class="hero-subtitle">TORONTO CANNABIS AUTHORITY </h2>
+                        <h1 class="hero-title">We’ve Got The Best Weed in Toronto! </h1>
+                        <div class="hero-description">
+                           <p>
+                              In a city as diverse as Toronto, it's easy to get lost in the shuffle and lose sight of
+                              what’s truly
+                              special
+                              about this city.
+                           </p>
+                           <p>
+                              We think that Toronto and cannabis go hand in hand so we wanted to combine the two and
+                              create Toronto
+                              Cannabis Authority, not just another cannabis store in Toronto, but an homage to the
+                              city. We opened our
+                              flagship store at the beginning of 2021 in the heart of Toronto, near the intersection
+                              of Queen Street
+                              and
+                              University. Come visit us today at 229 Queen St W!
+                           </p>
+                           <p>
+                              For years, the Toronto Cannabis community has been an enormous part of the city and it’s
+                              been a
+                              community
+                              where members can come together and enjoy the many different aspects of cannabis.
+                           </p>
+                           <p>
+                              We’ve taken it to the next level with a shopping experience that we believe is second to
+                              none in
+                              Toronto.
+                           </p>
+                        </div>
+                        <button class="button "> Shop now →</button>
+                     </div> 
+                  </div>
+               </div>
+            </div>
+         </section>
 
-<main class="main">
-  <div class="container">
-    main
-  </div>
+       </main> 
+ <footer class="footer">
 
-</main>
 
-<footer id="contact" class="footer">
-<a href="#">back</a>
 
-</footer>
 
+ </footer>
 </div>
+ <script src="js/main.js"> </script>
+ </body>
 
-
-
-<script src="js/main.js"> </script>
-</body>
-
-</html>
+ </html> 

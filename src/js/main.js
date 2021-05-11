@@ -2,7 +2,6 @@ body=document.querySelector("body");
 html=document.querySelector("html");
 header=document.querySelector("header");
 btnMenu=document.querySelector(".btn-menu");
-
 window.onload= function(){
   pagescroll(); 
 }
@@ -10,21 +9,19 @@ window.onload= function(){
 // мобильное меню
 nav = document.querySelector(".nav");
 document.querySelector(".btn-menu").addEventListener("click" , togglenav);
-document.querySelector(".nav-menu").onclick = closenav;
-
-document.querySelector(".nav-background").onclick = closenav;
+// document.querySelector(".nav__menu").onclick = closenav; 
+// document.querySelector(".nav__background").onclick = closenav;
 function closenav(){
   nav.classList.remove("nav-open");
   btnMenu.style.marginRight="0";
-  showscroll();
-  
+  showscroll(); 
 }
+
 function togglenav() {
   nav.classList.toggle("nav-open");
 if(nav.classList.contains("nav-open")){
   btnMenu.style.marginRight=window.innerWidth-html.offsetWidth +"px";
-  hidescroll();
-  
+  hidescroll(); 
 } else {
   showscroll();
   btnMenu.style.marginRight="0";
@@ -58,47 +55,11 @@ function togglescroll(){
 }
 
 // отключить прокрутку
-
-
-//плавный скрол к якорю 
-let anchors = document.querySelectorAll('a[href*="#"]')
-for (let i = 0; i < anchors.length; i++) {
-  anchors[i].addEventListener('click', function (e) {
-    e.preventDefault()
-    let blockID = this.getAttribute('href');
-    if (blockID == "#") {
-      document.querySelector("body").scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      })
-    } else {
-      document.querySelector(blockID).scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      })
-    }
-  })
-}
-//плавный скрол к якорю  
-
-
-
-
+ 
 
  // Появление меню при прокрутке 
 function pagescroll(){
-  header.classList.add("fixed-header"); //меняем хедер со статика на фиксед только после загрузки страници
-  hplace=document.querySelector(".header-place"); // вместо падинга на боди используем пустой блок
-  let headerheight=header.offsetHeight+"px"; //получаем текущую высоту хедера
-  hplace.style.height=headerheight;  //задаем пустому блоку высоту хедера
-  window.addEventListener('resize', function(event){
-    if(headerheight!==header.offsetHeight+"px"){
-   //меняем высоту пустого блока только если изменилась высота хедера
-      headerheight=header.offsetHeight+"px";
-      hplace.style.height=headerheight;
-    }
-  });
-
+  header.classList.add("fixed-header"); //меняем хедер со статика на фиксед только после загрузки страници  
   let pscroll = 0;
   window.addEventListener('scroll', function() { 
       if (pscroll<pageYOffset&pageYOffset>header.offsetHeight){
@@ -111,17 +72,9 @@ function pagescroll(){
 }
 
  //Появление меню при прокрутке
-
-
-
-
-
+ 
 
 //отправка формы 
-
-
-
-
 
 let form = document.querySelectorAll('.order-form');
 
@@ -181,3 +134,18 @@ function popup2(desc) {
 
 
 //popup2
+
+
+//dropdown
+
+function dropdown(){
+const drop = document.querySelector('.dropdown__activator');
+drop.addEventListener('click', function(){
+  drop.classList.toggle("dropdown_open");
+} )
+
+}
+ try{
+  dropdown()
+ } catch (e) {console.log(e)}
+

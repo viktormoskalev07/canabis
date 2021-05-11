@@ -1,8 +1,7 @@
-@import 'bootstrap5/bootstrap-grid.scss';
-  
   
   @import 'components/base';
-  @import 'components/width';
+  @import 'components/hero';
+ 
   @import 'components/nav';
   @import 'components/header';
   @import 'components/grid';
@@ -14,6 +13,7 @@
    @import 'components/popup';
   // @import 'components/order-form';
    @import 'components/list'; 
+   @import 'components/dropdown'; 
 
 
 

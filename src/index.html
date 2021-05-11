@@ -1,36 +1,50 @@
-<!DOCTYPE html>
-<html lang="ru">
+@@include('./html-templates/head.html',{
+}) 
+ 
+         <section class="section  hero">
+            <div class="hero-overlay">
+               <div class="container">
+                  <div class="pl-92-lg">
+                     @@include('./html-templates/header.html',{
+                     })
+                     <div class="hero-container">
+                        <h2 class="hero-subtitle">TORONTO CANNABIS AUTHORITY </h2>
+                        <h1 class="hero-title">We’ve Got The Best Weed in Toronto! </h1>
+                        <div class="hero-description">
+                           <p>
+                              In a city as diverse as Toronto, it's easy to get lost in the shuffle and lose sight of
+                              what’s truly
+                              special
+                              about this city.
+                           </p>
+                           <p>
+                              We think that Toronto and cannabis go hand in hand so we wanted to combine the two and
+                              create Toronto
+                              Cannabis Authority, not just another cannabis store in Toronto, but an homage to the
+                              city. We opened our
+                              flagship store at the beginning of 2021 in the heart of Toronto, near the intersection
+                              of Queen Street
+                              and
+                              University. Come visit us today at 229 Queen St W!
+                           </p>
+                           <p>
+                              For years, the Toronto Cannabis community has been an enormous part of the city and it’s
+                              been a
+                              community
+                              where members can come together and enjoy the many different aspects of cannabis.
+                           </p>
+                           <p>
+                              We’ve taken it to the next level with a shopping experience that we believe is second to
+                              none in
+                              Toronto.
+                           </p>
+                        </div>
+                        <button class="button "> Shop now →</button>
+                     </div> 
+                  </div>
+               </div>
+            </div>
+         </section>
 
-<head>
-  
-  <meta charset="UTF-8">
-  <title>Amazing page</title>
-  <link rel="stylesheet" href="css/main.css">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-</head>
-
-<body class="body">
-<div class="main-wrapper">
-  @@include('./html-templates/header.html',{
-  })
-
-<main class="main">
-  <div class="container">
-    main
-  </div>
-
-</main>
-
-@@include('./html-templates/footer.html',{
-})
-
-</div>
-
-
-
-<script src="js/main.js"> </script>
-</body>
-
-</html>
+      @@include('./html-templates/footer.html',{
+      }) 

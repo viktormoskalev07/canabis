@@ -1,1 +1,8 @@
- 
+.section-accessories{
+    &:nth-child(even){
+     
+        .change-order{
+            order:1;
+        }
+    }
+}

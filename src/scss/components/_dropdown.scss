@@ -1,0 +1,64 @@
+.dropdown{ 
+    transition: 0.3s;
+    padding-left: 20px;
+    padding-right: 20px;
+     overflow: hidden;
+     max-height: 0;
+     position: absolute;
+     right: 0;
+     left: 0;
+     @include lg{
+         display: flex; 
+         left: auto;
+         right: auto;
+         min-width: 250px;
+         flex-direction: column; 
+         background-color:$light-green;
+         background-image: url('../images/points.png');
+     }
+     .nav__item{
+         background-color: lighten($dark-green, 4%);
+         @include lg {
+            background-color:transparent;  
+         }
+     } 
+     
+    &:hover{
+        @include lg {
+              max-height: 100vh; 
+        }
+     
+    }
+    &__icon{
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 7px;
+        vertical-align: top;
+        width: 20px;
+        @include lg{
+            display: none;
+        }
+    } 
+    &__activator:hover + &{
+        @include lg {
+            max-height: 100vh; 
+      } 
+    }
+    &__activator{
+        background-color:transparent;
+        border: none;
+    }
+}
+
+ 
+.dropdown_open { 
+        &+ .dropdown{
+            @media (max-width:$lg) {
+                 max-height: 100%; 
+            } 
+        }
+        .dropdown__icon{
+            transform: rotate(180deg);
+        }
+}
+ 
