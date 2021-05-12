@@ -151,24 +151,20 @@ drop.addEventListener('click', function(){
 //dropdown
 
 
+
 // categories swiper 
-const swiper = new Swiper('.swiper-categories', {
-  // Default parameters
+const swiper = new Swiper('.swiper-categories', { 
   slidesPerView: 1,
-  spaceBetween: 10,
-  // Responsive breakpoints
-  breakpoints: {
-    // when window width is >= 320px
+  spaceBetween: 10, 
+  breakpoints: { 
     320: {
       slidesPerView: 1.5,
       spaceBetween: 20
-    },
-    // when window width is >= 480px
+    }, 
     576: {
       slidesPerView: 2,
       spaceBetween: 30
-    },
-    // when window width is >= 640px
+    }, 
     992: {
       slidesPerView: 6,
       spaceBetween: 40
@@ -177,3 +173,31 @@ const swiper = new Swiper('.swiper-categories', {
 })
 
 // categories swiper 
+
+
+
+
+
+ 
+const swiperRev = new Swiper('.swiper-rev__container', { 
+  slidesPerView: 'auto',
+  spaceBetween: 30, 
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    992: {
+      slidesPerView: 'auto',
+      spaceBetween: 30
+    }
+  },
+  navigation: {
+    nextEl: '.swiper-rev__next',
+    prevEl: '.swiper-rev__prev',
+  },
+})
