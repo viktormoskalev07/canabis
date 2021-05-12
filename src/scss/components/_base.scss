@@ -76,6 +76,23 @@ min-height: 100vh;
 .container{
   margin: 0 auto;
 }
+.title{
+  display: block;
+  margin: 0;
+  font-size: 22px;
+  font-family: $fontMain;
+  text-align: left;
+  padding-bottom: 10px;
+  line-height: 1.2;
+  @media screen and(min-width: $md) {
+      font-size: 28px;
+      padding-bottom: 40px;
+  } 
+  @media screen and(min-width: $lg) {
+      font-size: 36px;
+      padding-bottom: 50px;
+  }       
+}
 .main-wrapper{
   min-height: 100vh;
   display: flex;
