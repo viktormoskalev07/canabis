@@ -152,28 +152,52 @@ drop.addEventListener('click', function(){
 
 
 // categories swiper 
-const swiper = new Swiper('.swiper-container', {
+// const swiper = new Swiper('.swiper-container', {
+//   // Default parameters
+//   slidesPerView: 1,
+//   spaceBetween: 10,
+//   // Responsive breakpoints
+//   breakpoints: {
+//     // when window width is >= 320px
+//     320: {
+//       slidesPerView: 1.5,
+//       spaceBetween: 20
+//     },
+//     // when window width is >= 480px
+//     765: {
+//       slidesPerView: 2,
+//       spaceBetween: 30
+//     },
+//     // when window width is >= 640px
+//     1080: {
+//       slidesPerView: 6,
+//       spaceBetween: 40
+//     }
+//   }
+// })
+
+// reviews swiper 
+const swiperRev = new Swiper('.swiper-rev__container', {
   // Default parameters
-  slidesPerView: 1,
-  spaceBetween: 10,
+  slidesPerView: 'auto',
+  spaceBetween: 30,
   // Responsive breakpoints
   breakpoints: {
-    // when window width is >= 320px
     320: {
-      slidesPerView: 1.5,
+      slidesPerView: 1,
       spaceBetween: 20
     },
-    // when window width is >= 480px
-    765: {
+    768: {
       slidesPerView: 2,
-      spaceBetween: 30
+      spaceBetween: 20
     },
-    // when window width is >= 640px
-    1080: {
-      slidesPerView: 6,
-      spaceBetween: 40
+    992: {
+      slidesPerView: 'auto',
+      spaceBetween: 30
     }
-  }
+  },
+  navigation: {
+    nextEl: '.swiper-rev__next',
+    prevEl: '.swiper-rev__prev',
+  },
 })
-
-// categories swiper 

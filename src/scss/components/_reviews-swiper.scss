@@ -1,0 +1,124 @@
+
+.swiper-rev {
+  &__container {
+    overflow: visible;
+    padding-bottom: 180px;
+
+    @include md {
+      padding-bottom: 120px;
+      padding-top: 50px;
+    }
+  }
+
+  &__slide {
+    box-sizing: border-box;
+    padding: 20px 10px;
+    border: 3px solid $dark-green;
+    border-radius: 25px;
+
+    @include md {
+      padding: 30px 20px;
+    }
+
+    @include lg {
+      padding: 40px 50px;
+      width: 40%;
+      min-width: 600px;
+    }
+
+    blockquote {
+      margin: 0;
+      text-align: center;
+      font-size: .875rem;
+
+      @include md {
+        font-size: 1rem;
+      }
+
+      @include lg {
+        font-size: 1.125rem;
+      }
+
+      p {
+        margin-bottom: 35px;
+
+        @include lg {
+          margin-bottom: 50px;
+        }
+      }
+
+      cite {
+        font-family: $fontMain;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 1.125rem;
+
+        span {
+          font-size: .8em;
+        }
+      }
+    }
+  }
+
+  &__rating {
+    text-align: center;
+
+    svg {
+      margin: 0 5px;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+
+    @include md {
+      top: calc(-48px - 1em);
+      right: 0;
+      left: initial;
+      bottom: initial;
+    }
+  }
+
+  &__control {
+    margin-top: 0;
+    position: static;
+    width: 56px;
+    height: 48px;
+    background-color: $dark-green;
+
+    &:first-of-type {
+      margin-right: 100px;
+
+      @include md {
+        margin-right: 3px;
+      }
+    }
+
+    &::after {
+      content: '';
+    }
+
+    svg {
+      transition: transform .3s;
+    }
+  }
+  &__next {
+    &:hover {
+      svg {
+        transform: translateX(2px);
+      }
+    }
+  }
+  &__prev {
+    &:hover {
+      svg {
+        transform: translateX(-2px);
+      }
+    }
+  }
+}
