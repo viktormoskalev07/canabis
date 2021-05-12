@@ -32,6 +32,22 @@ $main-button-hover:rgb(9, 65, 9);
         background-color: lighten($dark-green , 15%);
         border-color:lighten($dark-green , 15%);
       }
+
+    &__mobile{
+      display: block;
+      max-width: 250px;
+      width: 100%;
+      margin: 0 auto;
+      @include lg {
+        display: none;
+      }
+    }
+    &__desctop{
+      display: none;
+      @include lg {
+        display: block;
+      }
+    }
   }
   
   

@@ -1,5 +1,6 @@
-.section-accessories{
-    background-color: $light-green;
+.example{
+    background-color: $dark-green;
+    padding-top: 160px;
     padding-bottom: 70px;
     @media screen and(min-width: $lg) {
           padding-bottom: 185px;  
@@ -24,7 +25,10 @@
             font-size: 36px;
             padding-bottom: 50px;
             text-align: left;
-        }         
+        }
+        &_light{
+        	color: $light-green;
+        }        
     }
     &__text{
         text-align: center;
@@ -38,31 +42,30 @@
         @media screen and(min-width: $lg) {
             padding-bottom: 60px;
         }
+        &_light{
+        	color: $light-green;
+        }
     }
     &__card{
-        padding: 20px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;    
-        width: 100%;   
-        @media screen and(min-width: $lg) {
-            padding: 0;
-            height: 100%;
-        } 
-    }
-    &__img{
-        display: flex;
-        align-items: center;   
         background-color: $green;
-        max-height: 450px;
-        height: 100%;
         max-width: 566px;
         width: 100%;
         border-radius: 25px; 
-        padding: 25px 0;   
+        padding-bottom: 50px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 65px;
+        @media screen and(min-width: $md) {
+            min-height: 450px;
+        }
+    }
+    &__img{
+        display: flex;
+        align-items: center;     
         img{
            margin: 0 auto;
            display: block;
+           margin-top: -85px;
         }
     }
     &__button{

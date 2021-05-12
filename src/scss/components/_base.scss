@@ -22,8 +22,8 @@ h1 , h2,h3 {
   font-style: normal;
   font-weight: 700; 
   line-height: 110%; 
-  text-align: center; 
-   margin: 1em 0; 
+   margin: 1em 0;
+  
 }
 
 @mixin sm {
@@ -77,13 +77,12 @@ min-height: 100vh;
 .title{
   display: block;
   margin: 0;
-  font-size: 22px;
+  font-size: 30px;
   font-family: $fontMain;
   text-align: left;
   padding-bottom: 10px;
   line-height: 1.2;
   @media screen and(min-width: $md) {
-      font-size: 28px;
       padding-bottom: 40px;
   } 
   @media screen and(min-width: $lg) {

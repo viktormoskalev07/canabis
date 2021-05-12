@@ -6,8 +6,7 @@
                <div class="container">
                   <div class="pl-92-lg">
                      @@include('./html-templates/header.html',{
-                     })
-                   
+                     }) 
                               <div class="hero__content">
                         <h2 class="hero__subtitle">TORONTO CANNABIS AUTHORITY </h2>
                         <h1 class="hero__title">We’ve Got The Best Weed in Toronto! </h1>
@@ -62,6 +61,19 @@
          </section>
 
          @@include('./html-templates/reviews.html',{})
+         <div class="container"> 
+            @@include('./html-templates/shop-brend.html') 
+        </div>
+      
+         @@include('./html-templates/example.html',{
+            title: "Cannabis Edibles",
+            text:"Are you looking for cannabis edibles in Toronto?<br><br>If you’re in the market for low dose THC chocolate, or maybe CBD gummies, even high THC products, we’ve got all the cannabis edibles you’re looking for.<br><br>All of our cannabis edibles are legal, licensed products and certified by Health Canada so rest assured that we’re a 100% legal dispensary.<br><br>That means that all of our cannabis edibles also come locked in child proof containers so that there’s no threat to any little rascals running around. That really helps us stand out from the illicit market because those products are not licensed, certified and don’t come in child proof packaging!",
+            button:"Shop now",
+            link:"#",
+            img:"edibles.png",
+            alt:"edibles"
+     }) 
+     
 
       @@include('./html-templates/footer.html',{
       }) 
