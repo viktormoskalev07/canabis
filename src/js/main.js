@@ -152,7 +152,7 @@ drop.addEventListener('click', function(){
 
 
 // categories swiper 
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper-categories', {
   // Default parameters
   slidesPerView: 1,
   spaceBetween: 10,
@@ -164,12 +164,12 @@ const swiper = new Swiper('.swiper-container', {
       spaceBetween: 20
     },
     // when window width is >= 480px
-    765: {
+    576: {
       slidesPerView: 2,
       spaceBetween: 30
     },
     // when window width is >= 640px
-    1080: {
+    992: {
       slidesPerView: 6,
       spaceBetween: 40
     }

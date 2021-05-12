@@ -14,8 +14,7 @@ font-family: IBM Plex Mono;
 font-style: normal;
 font-weight: 400;
 line-height: 1.1;
-letter-spacing: 0em;
-text-align: center; 
+letter-spacing: 0em; 
 }
 
 h1 , h2,h3 {
@@ -98,7 +97,7 @@ min-height: 100vh;
   flex-direction: column;
   z-index: 0;
   position: relative;
-  background-color: #446961;
+  // background-color: #446961;
   overflow: hidden;
  
 }
@@ -141,4 +140,8 @@ figure{
  }
  .light-color{
    color:$light-green
+ }
+
+ .dark-bcg{
+   background-color:$dark-green;
  }

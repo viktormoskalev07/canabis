@@ -1,0 +1,22 @@
+.swiper-categories{
+    margin-right: -20px;
+    @include sm {
+        margin-right: 0;
+    }
+    .swiper-wrapper{
+        @include lg {
+            transform: none !important;
+            display: flex;
+            flex-wrap: wrap; 
+            margin-left: -25px;
+            margin-right: -25px;
+            min-width: 100%;
+            width: auto;
+            .swiper-slide{
+                width: 33.33% !important;
+                padding: 25px  ;
+                margin:25px 0 !important;
+            }
+        }
+    }
+}
