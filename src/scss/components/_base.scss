@@ -1,6 +1,8 @@
 $dark-green:#446961;
 $green:#A2C7B3;
 $light-green:#D6E2DD; 
+$fontSecond: 'IBM Plex Mono', monospace;
+$fontMain: 'Druk Wide', serif;
 $s :414px;
 $sm: 576px;
 $md: 768px;
@@ -71,7 +73,26 @@ min-height: 100vh;
 .main{
   flex-grow: 1;
 }
-
+.container{
+  margin: 0 auto;
+}
+.title{
+  display: block;
+  margin: 0;
+  font-size: 22px;
+  font-family: $fontMain;
+  text-align: left;
+  padding-bottom: 10px;
+  line-height: 1.2;
+  @media screen and(min-width: $md) {
+      font-size: 28px;
+      padding-bottom: 40px;
+  } 
+  @media screen and(min-width: $lg) {
+      font-size: 36px;
+      padding-bottom: 50px;
+  }       
+}
 .main-wrapper{
   min-height: 100vh;
   display: flex;
@@ -111,7 +132,6 @@ figure{
   padding: 0;
   font-size: 0;
 }
-
   img {
     max-width: 100%;
     object-fit: cover;
