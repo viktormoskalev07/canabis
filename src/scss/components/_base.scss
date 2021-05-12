@@ -24,8 +24,7 @@ h1 , h2,h3 {
   font-weight: 700; 
   line-height: 110%; 
   text-align: center; 
-   margin: 1em 0;
-  
+   margin: 1em 0; 
 }
 
 @mixin sm {
@@ -137,4 +136,9 @@ figure{
     object-fit: cover;
   }
  
- 
+ .dark-color{
+   color:$dark-green
+ }
+ .light-color{
+   color:$light-green
+ }
