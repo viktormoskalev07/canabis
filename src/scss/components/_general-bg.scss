@@ -5,18 +5,20 @@
   background-color: #fff;
   z-index: 1;
 
+
   &__overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .75;
     z-index: -1;
+    mix-blend-mode: multiply;
     background: linear-gradient(360deg, #6E958C 0%, #A2C7B3 100%);
 
     &--solid {
       background: $green;
+      mix-blend-mode: multiply;
     }
   }
 }
