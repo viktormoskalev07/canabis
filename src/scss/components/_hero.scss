@@ -142,7 +142,7 @@
             }
             &__img{  
                 margin-right: -20px;
-                  @include smgit  {
+                  @include sm  {
                         margin-right: -40px;
                   }
                   @include lg {
