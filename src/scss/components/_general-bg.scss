@@ -14,5 +14,9 @@
     opacity: .75;
     z-index: -1;
     background: linear-gradient(360deg, #6E958C 0%, #A2C7B3 100%);
+
+    &--solid {
+      background: $green;
+    }
   }
 }

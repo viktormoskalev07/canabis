@@ -1,0 +1,124 @@
+@@include('./html-templates/head.html',{
+  'color':'bg-accent'
+}) 
+
+<div class="general-bg">
+  <div class="general-bg__overlay general-bg__overlay--solid"></div>
+  
+  <head class="section">
+    <div class="container">
+
+      @@include('./html-templates/header.html',{
+      }) 
+
+    </div>
+  </head>
+
+  <section class="section section-article">
+    <div class="container">
+      <div class="row">      
+        
+        <div class="col-lg-6">
+          <h1 class="section-article__title">Toronto Queen Street Cannabis Store</h1>
+          <address>229 Queen Street West</address>
+
+          <table class="schedule">
+            <tbody>
+              <tr>
+                <td>monday</td>
+                <td>10:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>tuesday</td>
+                <td>10:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>wednesday</td>
+                <td>10:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>thursday</td>
+                <td>10:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>friday</td>
+                <td>10:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>saturday</td>
+                <td>10:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>sunday</td>
+                <td>10:00 - 21:00</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <a href="#" class="button "> Shop now <span>→</span></a>
+        </div> 
+        
+        <div class="col-lg-6 section-article__img">
+          <img src="images/contact-store/image-149.png" alt="shop name">               
+        </div>
+
+      </div> 
+    </div>
+  </section>
+
+</div>
+
+
+
+<section class="section section-article">
+  <div class="container">
+    <div class="row">      
+      
+      <div class="col-lg-6 section-article__img order-base__switcher">
+        <img src="images/contact-store/image-150.png" alt="shop inside logo">               
+      </div>
+      
+      <div class="col-lg-6 section-article__content order-base">
+        <h2 class="section-article__title">Toronto’s Most Dependable Cannabis Store</h2>
+        <p>You should treat weed dispensaries in Toronto the same way as your cannabis buds, with love, respect and careful consideration. <br>
+          If you’ve been to a few of the weed dispensaries around Toronto, you’ll know that the experience can be extremely different from one pot shop to the next.</p>
+          <p>Toronto Cannabis Authority is committed to focusing local; to provide our Toronto communities with the best possible cannabis experiences. From the moment you step through our doors in person or online, we want you to feel welcome, comfortable and at home.</p>
+          <p>We do our best to make sure that your questions never go unanswered, and you’ll always find something in stock that you’ll enjoy.</p>
+        </div> 
+
+    </div> 
+  </div>
+</section>
+
+
+<section class="section section-article section-article--low-pad general-bg text-center-lg">
+  <div class="general-bg__overlay"></div>
+
+  <div class="container">
+    <h2 class="section-reviews__title hero__title">Visit Our Location at 229 Queen Street West</h2>
+
+    <address>229 Queen Street West <br>
+      Toronto, ON M5V 1Z4</address>
+
+    <div class="section-article__img section-article__img--mb">
+      <img class="v-tablet" src="images/contact-store/image-map.png" alt="map">
+      <img class="v-mobile" src="images/contact-store/image-map-mobile.png" alt="map">
+    </div>
+
+    <a href="#" class="button button--fulls"> contacts <span>→</span></a>
+  </div>
+
+  <div class="container">  
+    @@include('./html-templates/quality-items.html',{})
+  </div>
+</section>
+
+<section class="section cannabis-authority__container">
+  <div class="container">
+    @@include('./html-templates/cannabis-authority.html',{})
+  </div>
+</section>
+
+
+@@include('./html-templates/footer.html',{
+}) 

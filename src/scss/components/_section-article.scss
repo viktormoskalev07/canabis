@@ -1,0 +1,122 @@
+.order-base {
+  order: 1;
+
+  &__switcher {
+    order: 2;
+
+    @include lg {
+      order: 1;
+    }
+  }
+}
+
+.section-article {
+  padding: 20px 0 50px;
+  text-align: center;
+
+  @include lg {
+    text-align: left;
+    padding: 80px 0 100px;
+  }
+
+  &--low-pad {
+    padding: 20px 0 30px;
+
+    @include lg {
+      padding: 50px 0 70px;
+    }
+  }
+
+  &__title {
+
+    @include md {
+      font-size: 2rem;
+    }
+  }
+
+  address {
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: $fontSecond;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: underline;
+    margin-bottom: 1.5em;
+  }
+
+  .schedule {
+    font-family: $fontSecond;
+    margin: 0 auto 1.5em;
+
+    @include s {
+      font-size: 1.125rem;
+    }
+
+    @include lg {
+      margin: 0 auto 1.5em 0;
+    }
+
+    tr {
+      td {
+        padding: 2px 10px;
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: 400;
+
+        &:nth-of-type(2) {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .button {
+    margin-bottom: 1.5em;
+
+    &--fulls {
+      width: 100%;
+
+      @include sm {
+        width: inherit;
+      }
+    }
+  }
+
+  &__img {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+
+    .v-tablet {
+      display: none;
+
+      @include sm {
+        display: block;
+      }
+    }
+
+    .v-mobile {
+      width: 100%;
+
+      @include sm {
+        display: none;
+      }
+    }
+
+    &--mb {
+      margin-bottom: 1.5em;
+
+      @include md {
+        margin-bottom: 3em;
+      }
+    }
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  &__content {
+    padding-bottom: 1.5em;
+  }
+}

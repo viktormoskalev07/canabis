@@ -1,0 +1,33 @@
+.cannabis-authority {
+  border-radius: 25px;
+  padding: 80px 30px;
+  background-image: url(../images/hero-over.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+
+  @include lg {
+    background-position: 50% 10%;
+  }
+
+  &__container {
+    margin: 20px 0 70px;
+  }
+
+  &__title {
+    margin-bottom: 70px;
+  }
+
+  &__caption {
+    margin-bottom: 50px;
+
+    @include lg {
+      width: 50%;
+      margin: 0 auto 70px;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+  }
+}
