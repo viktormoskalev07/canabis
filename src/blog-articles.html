@@ -1,0 +1,27 @@
+
+@@include('./html-templates/head.html',{
+})
+<div class="container">
+    @@include('./html-templates/header.html',{
+})
+</div>
+
+<div class="container blog-section__articles">
+	<h1 class="blog-section__title">BLOG ARTICLES</h1>
+	@@include('./html-templates/blog-block.html',{
+		data:"April 22, 2021",
+		title:"Outdoor Venues in Toronto to Enjoy Cannabis",
+		heroImg:"blog/Outdoor_Venues.png",
+		heroAlt:"Outdoor_Venues",
+	})
+	@@include('./html-templates/blog-block.html',{
+		data:"April 22, 2021",
+		title:"Understanding Cannabis Concentrates",
+		heroImg:"blog/Understanding_Cannabis_Concentrates.png",
+		heroAlt:"Understanding_Cannabis_Concentrates",
+	})
+
+</div>
+
+@@include('./html-templates/footer.html',{
+})

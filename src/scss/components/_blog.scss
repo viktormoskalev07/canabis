@@ -195,4 +195,15 @@
     padding-bottom: 30px;
 
   }
+  &__articles{
+    padding-bottom: 70px;
+    @media screen and(min-width: $md) {
+      padding-bottom: 40px;
+      padding-top: 30px;
+    }
+  }
+  &__articles-wrap{
+    position: relative;
+    height: 400px;
+  }
 }
