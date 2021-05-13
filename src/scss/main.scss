@@ -13,15 +13,18 @@
   // @import 'components/order-form';
    @import 'components/list'; 
    @import 'components/dropdown'; 
-
-  //  alex
+   @import 'components/swiper-categories.scss';  
    @import 'components/reviews'; 
    @import 'components/reviews-swiper'; 
    
+   @import 'components/shop-brend'; 
+   @import 'components/example'; 
 
+   @import 'components/blog';
 
  
-   @import '/node_modules/swiper/css/swiper.min.css'
+  //  @import '/node_modules/swiper/css/swiper.min.css';
+   @import '/node_modules/swiper/swiper-bundle.min.css';
 
 
 

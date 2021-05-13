@@ -1,5 +1,4 @@
 .hero {
-     
       background-size: 100% 100%;
       background-image: url(../images/hero-bg.jpg);
       @include lg {
@@ -21,7 +20,6 @@
                   max-width: 495px;  
             }
             @include xxl{
-
                   max-width: 810px;  
             }
 
@@ -92,3 +90,62 @@
            }
       } 
 }
+
+
+.hero_categories {
+            text-align: center;
+            @include lg {
+                  text-align: left;
+            }
+            &__overlay {
+                  background-image: url(../images/categories/accessories-hero-bg.jpg);
+                  background-size: auto ;
+                  background-repeat: repeat; 
+            }
+            &__content{
+                  padding-bottom: 50px;
+                  max-width: 313px;
+                  @include md {
+                         width: 450px;
+                         min-width: 50%;
+                  }
+                  @include lg {
+                        width: 700px;
+                        max-width: 50%;
+                  } 
+            }
+            &__flex{
+                  @include sm{
+                        display: flex;
+                        justify-content: space-between; 
+                  }
+            }
+            &__title{
+                  @include lg {
+                        text-align: left;
+                  }
+                  font-size: 22px;
+                  @include s{
+                        font-size: 30px;
+                  }
+            }
+            &__subtitle{ 
+                  font-size: 14px;
+                  font-weight: 700;  
+            }
+            &__description{
+                  margin-bottom: 4em;
+                  
+                  p{ 
+            font-size: 12px;
+                  }
+            }
+            &__img{  
+                margin-right: -20px;
+                  @include lg {
+                        width: 45%;
+                  }
+            }
+  }
+
+  

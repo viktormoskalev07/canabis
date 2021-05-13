@@ -2,12 +2,13 @@ $main-button:$dark-green;
 $main-button-hover:rgb(9, 65, 9);
  
 .button{ 
+  display: inline-block;
     padding:22px 53px;
     @include md {
       padding:25px 70px;
     }
     @include lg {
-      padding:27px 97px;
+      padding:20px 80px;
     }
     background-color: $main-button;
     border:solid $main-button; 
@@ -31,6 +32,22 @@ $main-button-hover:rgb(9, 65, 9);
         background-color: lighten($dark-green , 15%);
         border-color:lighten($dark-green , 15%);
       }
+
+    &__mobile{
+      display: block;
+      max-width: 250px;
+      width: 100%;
+      margin: 0 auto;
+      @include lg {
+        display: none;
+      }
+    }
+    &__desctop{
+      display: none;
+      @include lg {
+        display: block;
+      }
+    }
   }
   
   
