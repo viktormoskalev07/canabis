@@ -1,7 +1,7 @@
 $main-button:$dark-green;
 $main-button-hover:rgb(9, 65, 9);
- 
-.button{ 
+
+.button{
   display: inline-block;
     padding:22px 53px;
     @include md {
@@ -11,7 +11,7 @@ $main-button-hover:rgb(9, 65, 9);
       padding:20px 80px;
     }
     background-color: $main-button;
-    border:solid $main-button; 
+    border:solid $main-button;
     color:white;
     border-radius: 4px;
       cursor: pointer;
@@ -21,13 +21,13 @@ $main-button-hover:rgb(9, 65, 9);
       font-weight: 600;
       line-height: 1.2;
       letter-spacing: 0em;
-      text-align: center; 
+      text-align: center;
       text-transform: uppercase;
-     &:hover{ 
+     &:hover{
         background-color: lighten($dark-green , 10%);
         border-color: lighten($dark-green , 10%);
       }
-    
+
       &:active{
         background-color: lighten($dark-green , 15%);
         border-color:lighten($dark-green , 15%);
