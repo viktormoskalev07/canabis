@@ -1,36 +1,15 @@
 
 <div   class="swiper-container swiper-categories  ">
   <div class="swiper-wrapper">
-                                  <div class="swiper-slide">
-                                    @@include('./card-categories.html',{ 
- 
-                                  }) 
-                                  </div> 
-                                  <div class="swiper-slide">
-                                    @@include('./card-categories.html',{ 
- 
-                                  }) 
-                                  </div> 
-                                  <div class="swiper-slide">
-                                    @@include('./card-categories.html',{ 
- 
-                                  }) 
-                                  </div> 
-                                  <div class="swiper-slide">
-                                    @@include('./card-categories.html',{ 
- 
-                                  }) 
-                                  </div> 
-                                  <div class="swiper-slide">
-                                    @@include('./card-categories.html',{ 
- 
-                                  }) 
-                                  </div> 
-                                  <div class="swiper-slide">
-                                    @@include('./card-categories.html',{ 
- 
-                                  }) 
-                                  </div> 
+    @@loop('./card-categories.html', [
+    {  img:'@@img1' , text:'@@text1' }, 
+    {  img:'@@img2' , text:'@@text2' }, 
+    {  img:'@@img3' , text:'@@text3' }, 
+    {  img:'@@img4' , text:'@@text4' },
+    {  img:'@@img5' , text:'@@text5' },
+    {  img:'@@img6' , text:'@@text6' }
+    ])
+                          
                                
   </div>
 </div>

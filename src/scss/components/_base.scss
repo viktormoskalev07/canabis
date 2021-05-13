@@ -163,3 +163,23 @@ img {
  .dark-bcg{
    background-color:$dark-green;
  }
+
+ .underline-hover{ 
+   
+   &:hover{
+        text-decoration: underline;
+   }
+ } 
+
+ .centering{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   height: 100%; 
+ }
+
+ .text-left-lg{
+   @include lg {
+     text-align: left;
+   }
+ }
