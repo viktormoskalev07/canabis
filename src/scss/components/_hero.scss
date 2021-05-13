@@ -67,7 +67,10 @@
 
       }
       &__description{
-            margin-bottom: 3em;
+            margin-bottom: 1em;
+            @include md{
+                  margin-bottom: 3em;
+            }
             p{
             font-size: 12px;
             text-align: left;   
@@ -142,6 +145,9 @@
             }
             &__img{  
                 margin-right: -20px;
+                  @include sm  {
+                        margin-right: -40px;
+                  }
                   @include lg {
                         width: 45%;
                   }

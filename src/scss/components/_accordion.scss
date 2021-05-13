@@ -11,7 +11,7 @@
   border-bottom: 1px solid #C4C4C4;
 
   &:after {
-    content: url('images/icons/down.png');
+    content: url('../images/icons/down.png');
     margin: 0;
     position: absolute;
     top: 50%;
@@ -38,7 +38,7 @@
   border-bottom: none;
 
   &:after {
-    content: url('images/icons/up.png');
+    transform: rotate(180deg)
   }
 ;
 }

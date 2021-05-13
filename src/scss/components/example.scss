@@ -1,9 +1,9 @@
 .example{
     background-color: $dark-green;
     padding-top: 160px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
     @media screen and(min-width: $lg) {
-          padding-bottom: 185px;  
+          padding-bottom: 15px;  
     } 
     &:nth-child(even){
         .change-order{

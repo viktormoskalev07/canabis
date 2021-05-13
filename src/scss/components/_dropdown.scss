@@ -5,16 +5,18 @@
      overflow: hidden;
      max-height: 0;
      position: absolute;
+     z-index: 3;
      right: 0;
      left: 0;
      @include lg{
-         display: flex; 
+         display: flex;
          left: auto;
          right: auto;
          min-width: 250px;
          flex-direction: column; 
          background-color:$light-green;
          background-image: url('../images/points.png');
+         z-index: 5;
      }
      .nav__item{
          background-color: lighten($dark-green, 4%);

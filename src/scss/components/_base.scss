@@ -2,6 +2,7 @@ $dark-green: #446961;
 $green: #A2C7B3;
 $light-green: #D6E2DD;
 $light-white: #fff;
+$light-text: #E7F8F4;
 $fontSecond: 'IBM Plex Mono', monospace;
 $fontMain: 'Druk Wide', serif;
 $s: 414px;
@@ -73,6 +74,10 @@ h1, h2, h3 {
 body {
   background-color: $light-green;
   color: $dark-green;
+}
+
+.bg-accent {
+  background-color: #E3EFEA;
 }
 
 .body, html {
@@ -162,4 +167,30 @@ img {
 
  .dark-bcg{
    background-color:$dark-green;
+ }
+
+ .underline-hover{ 
+   
+   &:hover{
+        text-decoration: underline;
+   }
+ } 
+
+ .centering{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   height: 100%; 
+ }
+
+ .text-left-lg{
+   @include lg {
+     text-align: left;
+   }
+  }
+  
+ .text-center-lg {
+   @include lg {
+     text-align: center;
+   }
  }

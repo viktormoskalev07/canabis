@@ -1,0 +1,50 @@
+.quality-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -7.5px 0 70px;
+
+  @include md {
+    margin: -7.5px -12.5px 100px;
+  }
+  @include lg {
+    margin: 0 -12.5px 100px;
+  }
+
+  &__block {
+    padding: 45px 35px 35px;
+    width: 100%;
+    margin: 7.5px 0;
+    border: 3px solid $dark-green;
+    border-radius: 25px;
+
+    @include md {
+      width: calc(50% - 25px);
+      margin: 7.5px 12.5px;
+    }
+    @include lg {
+      width: calc(33.33333% - 25px);
+      margin: 0 12.5px;
+    }
+
+    p {
+      text-align: center;
+      color: $light-text;
+    }
+  }
+
+  &__img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+  }
+
+  &__title {
+    text-align: center;
+    font-family: $fontMain;
+    font-size: 1.5rem;
+    color: $light-text;
+  }
+}
