@@ -181,6 +181,7 @@ const swiper = new Swiper('.swiper-categories', {
  
 const swiperRev = new Swiper('.swiper-rev__container', { 
   slidesPerView: 'auto',
+  grabCursor: true,
   spaceBetween: 30, 
   breakpoints: {
     320: {
