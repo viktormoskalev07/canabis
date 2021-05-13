@@ -2,10 +2,7 @@ body=document.querySelector("body");
 html=document.querySelector("html");
 header=document.querySelector("header");
 btnMenu=document.querySelector(".btn-menu");
-window.onload= function(){
-  pagescroll(); 
-}
-
+ 
 // мобильное меню
 nav = document.querySelector(".nav");
 document.querySelector(".btn-menu").addEventListener("click" , togglenav); 
@@ -25,8 +22,7 @@ if(nav.classList.contains("nav-open")){
   // btnMenu.style.marginRight="0";
 }
 }
-// мобильное меню
-
+// мобильное меню 
 
 // отключить прокрутку
 function hidescroll(){
@@ -120,3 +116,26 @@ const swiperRev = new Swiper('.swiper-rev__container', {
     prevEl: '.swiper-rev__prev',
   },
 })
+
+// accordion
+
+window.addEventListener('load', function () { 
+  const accordion = document.getElementsByClassName("accordion");
+  let i; 
+  if (!accordion) {
+      return null;
+  } else {
+      for (i = 0; i < accordion.length; i++) {
+          accordion[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              const panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+              } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+          });
+      }
+  }
+}); 
+// accordion
