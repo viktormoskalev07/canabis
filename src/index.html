@@ -60,7 +60,17 @@
 
          </section>
 
-         @@include('./html-templates/reviews.html',{})
+         <section class="section section-reviews general-bg">
+            <div class="general-bg__overlay"></div>
+          
+            <div class="container">
+               @@include('./html-templates/reviews.html',{
+                  'title':'reviews'
+               })
+            </div>
+         </section>
+
+
          <div class="container"> 
             @@include('./html-templates/shop-brend.html') 
         </div>
