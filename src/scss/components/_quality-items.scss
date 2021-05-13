@@ -1,9 +1,13 @@
 .quality-items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: -7.5px 0 70px;
 
   @include md {
+    margin: -7.5px -12.5px 100px;
+  }
+  @include lg {
     margin: 0 -12.5px 100px;
   }
 
@@ -15,7 +19,11 @@
     border-radius: 25px;
 
     @include md {
-      width: calc(33.3333% - 25px);
+      width: calc(50% - 25px);
+      margin: 7.5px 12.5px;
+    }
+    @include lg {
+      width: calc(33.33333% - 25px);
       margin: 0 12.5px;
     }
 

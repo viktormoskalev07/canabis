@@ -113,11 +113,37 @@
   </div>
 </section>
 
+<section class="section  dark-bcg section-categories">
+  <div class="container"> 
+     <h2 class="section__title light-color">What Kinds of Products Do We Carry?</h2>
+     <p class="section__subtitle light-color"> We’ve got Flower, Vapes, Extracts, Edibles, CBD, Topicals and Accessories!</p>
+ 
+     
+@@include('./html-templates/swiper-categories.html',{
+img1:'images/slider/1.png',
+img2:'images/slider/2.png',
+img3:'images/slider/3.png',
+img4:'images/slider/4.png',
+img5:'images/slider/5.png',
+img6:'images/slider/6.png',
+text1:'FLOWER',
+text2:'PRE_ROLLS',
+text3:'VAPES',
+text4:'EDIBLES',
+text5:'CBD',
+text6:'ACCESORIES',
+
+}) 
+
+  </div> 
+</section>
+
 <section class="section cannabis-authority__container">
   <div class="container">
     @@include('./html-templates/cannabis-authority.html',{})
   </div>
 </section>
+
 
 
 @@include('./html-templates/footer.html',{
