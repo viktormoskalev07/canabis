@@ -17,7 +17,11 @@
   }
 
   &__title {
+    @include lg {
+      font-size: 48px;
+    }
     margin-bottom: 70px;
+    font-size: 25px;
   }
 
   &__caption {
