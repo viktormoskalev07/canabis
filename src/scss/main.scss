@@ -5,6 +5,7 @@
   @import 'components/header';
   @import 'components/grid';
   @import 'components/sections';
+  @import 'components/section-article';
   @import 'components/general-bg';
   @import 'components/button';
   @import 'components/card';
@@ -16,15 +17,15 @@
    @import 'components/swiper-categories.scss';  
    @import 'components/reviews'; 
    @import 'components/reviews-swiper'; 
+   @import 'components/quality-items'; 
+   @import 'components/cannabis-authority'; 
    
    @import 'components/shop-brend'; 
    @import 'components/example'; 
 
    @import 'components/blog';
    @import 'components/faq';
-   @import 'components/accordion'; 
-
-   
+   @import 'components/accordion';  
    @import '/node_modules/swiper/swiper-bundle.min.css';
 
 
