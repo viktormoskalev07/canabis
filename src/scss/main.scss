@@ -10,8 +10,7 @@
   @import 'components/card';
   @import 'components/fonts';
    @import 'components/footer';
-   @import 'components/popup';
-  // @import 'components/order-form';
+   @import 'components/popup'; 
    @import 'components/list'; 
    @import 'components/dropdown'; 
    @import 'components/swiper-categories.scss';  
@@ -22,9 +21,10 @@
    @import 'components/example'; 
 
    @import 'components/blog';
+   @import 'components/faq';
+   @import 'components/accordion'; 
 
- 
-  //  @import '/node_modules/swiper/css/swiper.min.css';
+   
    @import '/node_modules/swiper/swiper-bundle.min.css';
 
 

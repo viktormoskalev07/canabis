@@ -1,0 +1,52 @@
+@import "base";
+
+.faq {
+  &__hero {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__hero-content {
+    @media screen and(min-width: $md) {
+      max-width: 855px;
+    }
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  &__title {
+    @media screen and(min-width: $md) {
+      font-size: 48px;
+    }
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    line-height: 118.5%;
+  }
+
+  &__content {
+    @media screen and(min-width: $md) {
+      max-width: 680px;
+      font-size: 14px;
+    }
+    text-align: center;
+    line-height: 110%;
+    font-size: 12px;
+  }
+
+  &__accordion {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+
+  &__accordion-container {
+    max-width: 1155px;
+    width: 100%;
+    padding: 0 15px;
+  }
+}
