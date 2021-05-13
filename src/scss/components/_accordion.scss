@@ -1,0 +1,64 @@
+@import "base";
+
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  position: relative;
+  border-bottom: 1px solid #C4C4C4;
+
+  &:after {
+    content: url('../images/icons/down.png');
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
+  }
+
+  &__title {
+    @media screen and(min-width: $md) {
+      font-size: 24px;
+    };
+    text-transform: none;
+    max-width: 700px;
+    width: 80%;
+    color: $dark-green;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    font-family: $fontSecond;
+  }
+}
+
+.active {
+  border-bottom: none;
+
+  &:after {
+    content: url('../images/icons/up.png');
+  }
+;
+}
+
+.panel {
+  @media screen and(min-width: $md) {
+    font-size: 14px;
+  };
+  font-size: 12px;
+  line-height: 110%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-bottom: 1px solid #C4C4C4;
+
+  &__content {
+    @media screen and(min-width: $md) {
+
+    };
+    max-width: 700px;
+    width: 80%;
+  }
+}
