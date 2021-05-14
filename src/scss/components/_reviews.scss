@@ -81,6 +81,15 @@
           &--fullw {
             width: 100%;
           }
+          &--tiny-pb {
+            @include md {
+              padding: 25px 15px;
+            }
+  
+            @include lg {
+              padding: 33px 30px;
+            }
+          }
         }
 
         &__title {
