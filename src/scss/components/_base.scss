@@ -185,14 +185,18 @@ img {
 
  .text-left-lg{
    @include lg {
-     text-align: left;
+     text-align: left !important;
    }
   }
   
  .text-center-lg {
    @include lg {
-     text-align: center;
+     text-align: center !important;
    }
+ }
+
+ .text-tiny-font {
+   font-size: .875rem;
  }
 
  .the-best-text{

@@ -92,7 +92,7 @@
 
 		svg {
 
-			fill: white;
+			fill: $light-white;
 		}
 
 		@include lg {
@@ -105,7 +105,7 @@
 		}
 
 		@include xl {
-			margin-left: 100px;
+			margin-left: 85px;
 		}
 
 		li {
@@ -118,7 +118,7 @@
 				height: 100%;
 			}
 
-			margin-left: 20px;
+			margin-left: 15px;
 			transition: 0.3;
 
 			:hover {
