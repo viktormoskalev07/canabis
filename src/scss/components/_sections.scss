@@ -56,16 +56,36 @@
       height: 100%;
     }
   }
+  &__img-wrap{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
   &__img {
     display: flex;
     align-items: center;
     max-width: 566px;
     width: 100%;
-    padding: 25px 0;
+    padding: 50px 0;
+    background-color: $green;
+    border-radius: 25px;
+    padding-bottom: 100%;
+    position: relative;
+    min-height: 410px;
+
+    @include sm{
+      padding-bottom: 65%;
+    }
+
+    @include lg{
+      padding-bottom: 80%;
+    }
 
     img {
       border-radius: 25px;
+      max-height: 100%;
     }
   }
 
