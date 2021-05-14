@@ -1,75 +1,90 @@
-.example{
-    background-color: $dark-green;
-    padding-top: 160px;
-    padding-bottom: 10px;
-    @media screen and(min-width: $lg) {
-          padding-bottom: 15px;  
-    } 
-    &:nth-child(even){
-        .change-order{
-            order:1;
-        }
-    }
-    &__title{
-        margin: 0;
-        text-align: center;
-        font-size: 22px;
-        font-family: $fontMain;
-        padding-bottom: 10px;
-        line-height: 1.2;
-        @media screen and(min-width: $md) {
-            font-size: 28px;
-            padding-bottom: 40px;            
-        } 
-        @media screen and(min-width: $lg) {
-            font-size: 36px;
-            padding-bottom: 50px;
-            text-align: left;
-        }
-        &_light{
-        	color: $light-green;
-        }        
-    }
-    &__text{
-        text-align: center;
-        padding-bottom: 10px;
-        font-family: $fontSecond;
-        font-size: 14px;
-        @media screen and(min-width: $md) {
-            padding-bottom: 40px;
-            text-align: left;
-        } 
-        @media screen and(min-width: $lg) {
-            padding-bottom: 60px;
-        }
-        &_light{
-        	color: $light-green;
-        }
-    }
-    &__card{
-        background-color: $green;
-        max-width: 566px;
-        width: 100%;
-        border-radius: 25px; 
-        padding-bottom: 50px;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 65px;
-        @media screen and(min-width: $md) {
-            min-height: 450px;
-        }
-    }
-    &__img{
-        display: flex;
-        align-items: center;     
-        img{
-           margin: 0 auto;
-           display: block;
-           margin-top: -85px;
-        }
-    }
-    &__button{
-        max-width: 250px;
-        width: 100%;
-    }
+.example {
+	background-color: $dark-green;
+	padding-bottom: 40px;
+	padding-top: 40px;
+
+	@include lg {
+		padding-top: 160px;
+		padding-bottom: 160px;
+	}
+
+	&__title {
+		margin: 0;
+		text-align: center;
+		font-size: 22px;
+		font-family: $fontMain;
+		padding-bottom: 10px;
+		line-height: 1.2;
+
+		@media screen and(min-width: $md) {
+			font-size: 28px;
+			padding-bottom: 40px;
+		}
+
+		@media screen and(min-width: $lg) {
+			font-size: 36px;
+			padding-bottom: 50px;
+			text-align: left;
+		}
+
+		&_light {
+			color: $light-green;
+		}
+	}
+
+	&__text {
+		text-align: center;
+		padding-bottom: 90px;
+		font-family: $fontSecond;
+		font-size: 14px;
+
+		@include md {
+			text-align: left;
+		}
+
+		@include lg {
+			padding-bottom: 20px;
+		}
+
+		&_light {
+			color: $light-green;
+		}
+	}
+
+	&__card {
+		background-color: $green;
+		max-width: 566px;
+		width: 100%;
+		border-radius: 25px;
+		padding-bottom: 50px;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 65px;
+
+		@media screen and(min-width: $md) {
+			min-height: 450px;
+		}
+	}
+
+	&__img {
+		display: flex;
+		align-items: center;
+
+		img {
+			margin: 0 auto;
+			display: block;
+			margin-top: -85px;
+		}
+	}
+
+	&__button {
+		max-width: 250px;
+		width: 100%;
+	}
+
+	.order-1 {
+		@include lg {
+			order: 2;
+		}
+	}
 }

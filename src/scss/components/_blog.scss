@@ -1,4 +1,4 @@
-@import "base";
+
 
 .blog-section {
   color: $light-white;
@@ -183,12 +183,16 @@
   }
 
   &__info-link {
+    font-family: $fontSecond;
     font-weight: 600;
     font-size: 18px;
     line-height: 110%;
     text-decoration: underline;
     padding-left: 25px;
-    padding-bottom: 10px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   &__visit {
