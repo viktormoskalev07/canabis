@@ -20,8 +20,7 @@
         
         <div class="col-lg-6">
           <h1 class="section-article__title">Toronto Queen Street Cannabis Store</h1>
-          <address>229 Queen Street West</address>
-
+          <address>229 Queen Street West</address> 
           <table class="schedule">
             <tbody>
               <tr>
@@ -117,26 +116,45 @@
   <div class="container"> 
      <h2 class="section__title light-color">What Kinds of Products Do We Carry?</h2>
      <p class="section__subtitle light-color"> We’ve got Flower, Vapes, Extracts, Edibles, CBD, Topicals and Accessories!</p>
- 
-     
+  
 @@include('./html-templates/swiper-categories.html',{
-img1:'images/slider/1.png',
-img2:'images/slider/2.png',
-img3:'images/slider/3.png',
-img4:'images/slider/4.png',
-img5:'images/slider/5.png',
-img6:'images/slider/6.png',
-text1:'FLOWER',
-text2:'PRE_ROLLS',
-text3:'VAPES',
-text4:'EDIBLES',
-text5:'CBD',
-text6:'ACCESORIES',
-
+img6:'images/slider/1.png',
+img5:'images/slider/2.png',
+img4:'images/slider/3.png',
+img3:'images/slider/4.png',
+img2:'images/slider/5.png',
+img1:'images/slider/6.png',
+text6:'FLOWER',
+text5:'PRE_ROLLS',
+text4:'VAPES',
+text3:'EDIBLES',
+text2:'CBD',
+text1:'ACCESORIES', 
 }) 
+<p class="the-best-text light-color">
 
+  And of course, the best weed <br> strains in Toronto!
+</p>
   </div> 
 </section>
+  <section class="section">
+    <div class="container">
+          <h2 class="section__title"> Some Questioned You’ve Frequently Asked Us</h2>
+    @@include('./html-templates/accordion.html',{
+      titleAccordion:'“Can I really order online from my house?”',
+      contentAccordion:"   empty in figma",
+      })
+    @@include('./html-templates/accordion.html',{
+      titleAccordion:'"I’ve Never Used Cannabis Before, Where Do I Start?"',
+      contentAccordion:"   empty in figma",
+      })
+    @@include('./html-templates/accordion.html',{
+      titleAccordion:'“Can I Buy from You Without ID?”',
+      contentAccordion:"   empty in figma",
+      })
+    </div>
+
+  </section>
 
 <section class="section cannabis-authority__container">
   <div class="container">
