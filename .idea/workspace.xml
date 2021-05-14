@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/accordion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/accordion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_accordion.scss" afterDir="false" />
-    </list>
+    <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620985110780</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix accordion">
+      <created>1620990356201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620990356201</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +133,8 @@
     <MESSAGE value="added AUTHORITY" />
     <MESSAGE value="created cbd" />
     <MESSAGE value="fix images" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix images" />
+    <MESSAGE value="fix accordion" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix accordion" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
