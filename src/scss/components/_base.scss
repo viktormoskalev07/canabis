@@ -169,8 +169,11 @@ img {
    background-color:$dark-green;
  }
 
+ .marg-t-b {
+   margin: 20px 0;
+ }
+
  .underline-hover{ 
-   
    &:hover{
         text-decoration: underline;
    }
@@ -188,11 +191,20 @@ img {
      text-align: left !important;
    }
   }
+
   
  .text-center-lg {
    @include lg {
      text-align: center !important;
    }
+ }
+
+ .text-left-sm {
+   text-align: left;
+ }
+
+ .text-center-sm {
+   text-align: center;
  }
 
  .text-tiny-font {
