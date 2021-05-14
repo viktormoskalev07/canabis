@@ -58,7 +58,7 @@
   }
   &__img-wrap{
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
@@ -74,6 +74,7 @@
     border-radius: 25px;
     padding-bottom: 100%;
     position: relative;
+    min-height: 410px;
 
     @include sm{
       padding-bottom: 65%;
