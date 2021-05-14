@@ -3,8 +3,10 @@
 .section-accessories {
   background-color: $light-green;
   padding: 70px 0;
+
   @media screen and(min-width: $lg) {
     padding: 93px 0;
+
     &:nth-child(even) {
       .change-order {
         order: 1;
@@ -19,10 +21,12 @@
     font-family: $fontMain;
     padding-bottom: 10px;
     line-height: 1.2;
+
     @media screen and(min-width: $md) {
       font-size: 28px;
       padding-bottom: 40px;
     }
+
     @media screen and(min-width: $lg) {
       font-size: 36px;
       padding-bottom: 50px;
@@ -35,10 +39,12 @@
     padding-bottom: 10px;
     font-family: $fontSecond;
     font-size: 14px;
+
     @media screen and(min-width: $md) {
       padding-bottom: 40px;
 
     }
+
     @media screen and(min-width: $lg) {
       padding-bottom: 60px;
       text-align: left;
@@ -51,6 +57,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
     @media screen and(min-width: $lg) {
       padding: 0;
       height: 100%;
@@ -77,60 +84,106 @@
 }
 
 
-.section{
-    padding-top: 50px;
-    padding-bottom:50px;
-    &__title{
-        margin-bottom: 1em;
-        margin-top: 5px;
-        text-align: center;
-        font-size: 22px;
-        @include s {
-            font-size: 30px;
-        }
-        @include sm {
-            font-size: 35px;
-        }
-        @include md {
-            font-size: 45px;
-        }
-        @include lg{
-            font-size: 48px;
-        }
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &__title {
+    margin-bottom: 1em;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 22px;
+
+    @include s {
+      font-size: 30px;
     }
-    &__title_half{
-        font-size: 48px;
+
+    @include sm {
+      font-size: 35px;
     }
-    &__subtitle{
-        text-align: center;
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 12px;
-        @include sm {
-            font-size: 14px;
-        }
-        @include lg {
-            font-size: 18px;
-        }
+
+    @include md {
+      font-size: 45px;
     }
-    &__img{
-        border-radius: 25px;
-        overflow: hidden;
+
+    @include lg {
+      font-size: 48px;
     }
+  }
+
+  &__title_half {
+    font-size: 48px;
+  }
+
+  &__subtitle {
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+
+    @include sm {
+      font-size: 14px;
+    }
+
+    @include lg {
+      font-size: 18px;
+    }
+  }
+
+  &__img {
+    border-radius: 25px;
+    overflow: hidden;
+  }
 }
-        .section_parts{
-            padding-top: 150px;
-            padding-bottom: 150px;
+
+.section_parts {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.section_link-to-blog {
+  background-image: url("../images/blog/3-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .link-to-blog__link {
+    font-family: IBM Plex Mono;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.6;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+
+    .underline-hover {
+      text-decoration: none;
+      padding: 0 5px;
+
+      span {
+        display: inline-block;
+        vertical-align: text-bottom;
+        transition: .2s;
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid $dark-green;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+      }
+
+      &:hover {
+        &::after {
+          transform: scaleX(1);
+          transform-origin: 0% 50%;
         }
 
-.section_link-to-blog{
-    .link-to-blog__link{
-        font-family: IBM Plex Mono;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 1.6;
-        text-align: right;
-        margin-bottom: 60px;
+        span {
+          transform: translateX(2px);
+        }
+      }
     }
+  }
 }

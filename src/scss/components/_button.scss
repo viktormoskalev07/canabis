@@ -24,13 +24,17 @@ $main-button-hover: rgb(9, 65, 9);
   text-align: center;
   text-transform: uppercase;
 
+  span {
+    display: inline-block;
+    vertical-align: text-top;
+  }
+
   &:hover {
     background-color: lighten($dark-green, 10%);
     border-color: lighten($dark-green, 10%);
 
     span {
       transform: translateX(2px);
-      display: inline-block;
     }
   }
 
