@@ -2,29 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/accessories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/beverages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/cbd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/contact-store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/edibles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk-WideMedium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk-WideMedium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/DrukWide/DrukWide-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fonts/DrukWide/DrukWide-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/BikeTour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/HighPark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/SugarBeach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/TorontoZoo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/TrinityBellwoodsPark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/accessories/Bongs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/accessories/CleaningStorage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/accessories/Grinders.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/accessories/RollingPapers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/accessories/SmokingPipes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/beverages/CBDDrinks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/beverages/Dissolvable.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/beverages/DrinkableCannabis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/beverages/LowDoseDrinks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/blog-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/blog/link-to-blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/blog/link-to-blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/blogS1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/brend-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/canabis-leaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/categories/accessories-hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/categories/accessories-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/categories/beverages-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/categories/beverages-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/categories/edibles-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/categories/source-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/contact-store/image-149.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/contact-store/image-150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/contact-store/image-map-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/contact-store/image-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/edibles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/edibles/EDIBLES.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/edibles/EdibleGummies.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/edibles/LowDoseEdibles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/hero-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/hero-over.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/dropdown-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/icons/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/image-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/HEXO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/broken-coast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/cove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/dosist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/figr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/houseplant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/ogen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/pax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/redecan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/shred.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/tiveed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/logo/topleaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/slider/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/slider/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/slider/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/slider/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/slider/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/slider/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/square-map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/white_plaster 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/reviews-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk Wide Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk Wide Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/RobotoRegular/RobotoRegular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/RobotoRegular/RobotoRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/RobotoRegular/RobotoRegular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/BikeTour.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/BikeTour.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/HighPark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/HighPark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/TorontoZoo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/TorontoZoo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/TrinityBellwoodsPark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/TrinityBellwoodsPark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/points.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/points.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/ps8C42.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/BikeTour.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/BikeTour.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/HighPark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/HighPark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/TorontoZoo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/TorontoZoo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/TrinityBellwoodsPark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/TrinityBellwoodsPark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +102,15 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="1dajOhNYtoDJmCSwYO58nnEDAvV" />
   <component name="PropertiesComponent">
@@ -46,6 +119,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images/cbd" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/dist/images" />
     </key>
@@ -62,6 +136,48 @@
       <updated>1592670069811</updated>
       <workItem from="1592670075018" duration="6000" />
     </task>
+    <task id="LOCAL-00001" summary="del dist">
+      <created>1620916347075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620916347075</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added AUTHORITY">
+      <created>1620918243906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620918243906</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created cbd">
+      <created>1620920701183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620920701183</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created cbd">
+      <created>1620921643278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620921643278</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created cbd">
+      <created>1620921872511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620921872512</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="del dist" />
+    <MESSAGE value="added AUTHORITY" />
+    <MESSAGE value="created cbd" />
+    <option name="LAST_COMMIT_MESSAGE" value="created cbd" />
   </component>
 </project>
