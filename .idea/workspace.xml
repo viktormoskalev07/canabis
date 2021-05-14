@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk Wide Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk Wide Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/RobotoRegular/RobotoRegular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/RobotoRegular/RobotoRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/RobotoRegular/RobotoRegular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/BikeTour.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/BikeTour.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/HighPark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/HighPark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/TorontoZoo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/TorontoZoo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/TrinityBellwoodsPark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/TrinityBellwoodsPark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/points.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/points.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/ps8C42.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/BikeTour.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/BikeTour.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/HighPark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/HighPark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/TorontoZoo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/TorontoZoo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/TrinityBellwoodsPark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/TrinityBellwoodsPark.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-    </list>
+    <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,19 +13,40 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectId" id="1dajOhNYtoDJmCSwYO58nnEDAvV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss/components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scss/components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images/cbd" />
+      <recent name="$PROJECT_DIR$/src/images/contact-store" />
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/dist/images" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -62,6 +59,82 @@
       <updated>1592670069811</updated>
       <workItem from="1592670075018" duration="6000" />
     </task>
+    <task id="LOCAL-00001" summary="del dist">
+      <created>1620916347075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620916347075</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added AUTHORITY">
+      <created>1620918243906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620918243906</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created cbd">
+      <created>1620920701183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620920701183</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created cbd">
+      <created>1620921643278</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620921643278</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created cbd">
+      <created>1620921872511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620921872512</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix images">
+      <created>1620983546609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620983546609</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix images">
+      <created>1620985024450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620985024450</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix images">
+      <created>1620985110780</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620985110780</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix accordion">
+      <created>1620990356201</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620990356201</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="del dist" />
+    <MESSAGE value="added AUTHORITY" />
+    <MESSAGE value="created cbd" />
+    <MESSAGE value="fix images" />
+    <MESSAGE value="fix accordion" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix accordion" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>

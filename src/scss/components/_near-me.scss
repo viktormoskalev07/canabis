@@ -1,10 +1,15 @@
 .near-me{
 	&__sub-title{
 		text-align: center;
-		font-size: 24px;
+		font-size: 16px;
 		max-width: 650px;
 		margin: 0 auto;
-		padding-bottom: 40px;
+		padding-bottom: 10px;
+		@media screen and(min-width: $md){
+			padding-bottom: 40px;
+			font-size: 24px;
+		}
+
 	}
 	&__wrap{
 		max-width: 750px;
