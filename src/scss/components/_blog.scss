@@ -10,13 +10,20 @@
   &__hero-bg-img {
     position: absolute;
     z-index: -1;
-    top:100px;
+    top: 100px;
 
     img {
       display: block;
       width: 100vw;
       height: 100vh;
       object-fit: cover;
+    }
+    &_radius{ 
+      top: auto;     
+      img{
+        border-radius: 25px;
+        max-height: 380px;
+      }
     }
   }
 
@@ -48,6 +55,13 @@
 
     @media screen and(min-width: $md) {
       font-size: 48px;
+    }
+    &_main{
+      max-width: 660px;
+      font-size: 18px;
+      @media screen and(min-width: $md) {
+        font-size: 30px;
+      }
     }
   }
 
