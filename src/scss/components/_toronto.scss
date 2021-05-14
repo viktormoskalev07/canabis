@@ -1,0 +1,64 @@
+.toronto{
+	background-color: $dark-green;
+	color: $light-text;
+	padding-top: 20px;
+	@media screen and(min-width: $md){
+		padding-top: 50px;
+	}
+	@media screen and(min-width: $lg){
+		padding-top: 100px;
+	}
+	&__block{
+		margin: 0 auto;	
+		text-align: center;	
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 15px;
+		@media screen and(min-width: $lg) {
+			justify-content: space-between;
+			align-items: center;
+			padding-bottom: 100px;
+			text-align: left;
+		}
+	}
+	&__title{
+		font-size: 22px;
+		@media screen and(min-width: $md) {
+			font-size: 28px;
+		}
+		@media screen and(min-width: $lg) {
+			font-size: 36px;
+		}
+	}
+	&__text{
+		font-size: 14px;
+		padding-bottom: 15px;
+	}
+	&__img{	
+		margin: 0 auto; 
+		order: 1;
+		img{
+			display: block;
+		}
+		@media screen and(min-width: $lg) {
+			width: 51%;
+			order: 0;
+			margin: 0;
+		}
+	}
+	&__content{
+		order: 0;
+		@media screen and(min-width: $lg) {
+			width: 40%;
+			order: 1;
+		}
+	}
+	.change-order{
+		@media screen and(min-width: $lg){
+			.toronto__img{
+				order: 2;
+			}
+		}
+		
+	}
+}
