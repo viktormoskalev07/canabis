@@ -19,11 +19,28 @@
 		background-color: $light-green;
 		z-index: 5;
 	}
+	&__ul{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
 
-	.nav__item {
+	.menu-item {
 		background-color: lighten($dark-green, 4%); 
 		@include lg {
 			background-color: transparent;
+		}
+		&::after{
+			display: none;
+		}
+		&:hover{
+			text-decoration: underline;
+		}
+		a{
+			 
+			height: 100%;
+			width: 100%;
+			display: block;
 		}
 	}
 

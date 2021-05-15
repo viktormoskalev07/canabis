@@ -74,6 +74,11 @@ h1, h2, h3 {
 body {
   background-color: $light-green;
   color: $dark-green;
+    @include lg {
+      overflow: auto !important;
+      padding: 0 !important;
+      //hide scroll when menu open , only mobile
+    }
 }
 
 .bg-accent {
