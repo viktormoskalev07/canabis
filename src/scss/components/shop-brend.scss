@@ -1,7 +1,9 @@
 .shop-breand{
+  position: relative;
   background-image: url("../images/brend-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background: linear-gradient(300deg, #CBDFD6 10.75%, #6c948a 100%);
   padding-top: 50px;
   &__container{
   	max-width: 1000px;
