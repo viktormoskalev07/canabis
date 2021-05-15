@@ -1,156 +1,208 @@
 .hero {
-      background-size: 100% 100%;
-      background-image: url(../images/hero-bg.jpg);
-      @include lg {
-            padding-left: 50px;
-            padding-top: 50px;
-            .pl-92-lg{
-                  padding-left: 42px;
-            }
-      }
-      &__content{ 
-            position: relative;
-            z-index: 1;
-            max-width: 295px;
-            @include sm{
-                  max-width: 395px;  
-            }
-            @include md{
-                  padding-top: 20px;
-                  max-width: 495px;  
-            }
-            @include xxl{
-                  max-width: 810px;  
-            }
+  background-size: 100% 100%;
+  background-image: url(../images/hero-bg.jpg);
+  @include lg {
+    padding-left: 50px;
+    padding-top: 50px;
+    .pl-92-lg {
+      padding-left: 42px;
+    }
+  }
 
-      }
-      &__overlay {
-            background-image: url(../images/hero-over.jpg);
-            background-size: cover; 
-            background-position: 51% ;
-            @include sm{
-                  background-position: 42% ;
-            }
-            @include md{
-                  background-position: 32% ;
-            }
-            @include lg{
-                  padding-bottom: 200px;
-            }
-      }
-  
-      &__subtitle{
-            font-family: Druk Wide; 
-            font-size: 15px; 
-            font-weight: 700; 
-            letter-spacing: 0em;
-            text-align: left; 
-            @include lg{
-                  font-size: 24px;
-            }
-      }
-      &__title{
-            font-family: Druk Wide;
-            font-size: 30px; 
-            font-weight: 700; 
-            letter-spacing: 0em;
-            text-align: left; 
-            @include lg{
-                  font-size: 35px;
-            }
-            @include xl{
-                  font-size: 40px;
-            }
-            @include xxl{
-                  font-size: 48px;
-            }
+  &__content {
+    position: relative;
+    z-index: 1;
+    max-width: 295px;
+    @include sm {
+      max-width: 395px;
+    }
+    @include md {
+      padding-top: 20px;
+      max-width: 495px;
+    }
+    @include xxl {
+      max-width: 810px;
+    }
 
+  }
+
+  &__overlay {
+    background-image: url(../images/hero-over.jpg);
+    background-size: cover;
+    background-position: 51%;
+    @include sm {
+      background-position: 42%;
+    }
+    @include md {
+      background-position: 32%;
+    }
+    @include lg {
+      padding-bottom: 200px;
+    }
+  }
+
+  &__subtitle {
+    font-family: Druk Wide;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    @include lg {
+      font-size: 24px;
+    }
+  }
+
+  &__title {
+    font-family: Druk Wide;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    @include lg {
+      font-size: 35px;
+    }
+    @include xl {
+      font-size: 40px;
+    }
+    @include xxl {
+      font-size: 48px;
+    }
+
+  }
+
+  &__description {
+    margin-bottom: 1em;
+    @include md {
+      margin-bottom: 3em;
+    }
+
+    p {
+      font-size: 12px;
+      text-align: left;
+      @include xxl {
+        max-width: 720px;
+        font-size: 14px;
       }
-      &__description{
-            margin-bottom: 1em;
-            @include md{
-                  margin-bottom: 3em;
-            }
-            p{
-            font-size: 14px;
-            text-align: left;   
-            @include xxl{
-                  max-width: 720px;
-            }
-            }
-      
+    }
+
+  }
+
+  &__leaf {
+    z-index: 0;
+      img{
+        height: 400px;
       }
-      &__leaf{
-            z-index: 0;
-            width: 200px;
-            transform: rotate(9.3deg);
-            left: 0px;
-           @include lg{
-            width: 260px;
-                 position:absolute;
-                 transform: translateY(-180px);
-           }
-      } 
+    transform: rotate(9.3deg);
+    left: 0px;
+    @include lg {
+      img{
+        // height: 500px;
+      }
+      position: absolute;
+      transform: translateY(-220px);
+    }
+  }
 }
 
 
 .hero_categories {
-            text-align: center;
-            @include lg {
-                  text-align: left;
-            }
-            &__overlay {
-                  background-image: url(../images/categories/accessories-hero-bg.jpg);
-                  background-size: auto ;
-                  background-repeat: repeat; 
-            }
-            &__content{
-                  padding-bottom: 50px;
-                  max-width: 313px;
-                  @include md {
-                         width: 450px;
-                         min-width: 50%;
-                  }
-                  @include lg {
-                        width: 700px;
-                        max-width: 50%;
-                  } 
-            }
-            &__flex{
-                  @include sm{
-                        display: flex;
-                        justify-content: space-between; 
-                  }
-            }
-            &__title{
-                  @include lg {
-                        text-align: left;
-                  }
-                  font-size: 22px;
-                  @include s{
-                        font-size: 30px;
-                  }
-            }
-            &__subtitle{ 
-                  font-size: 14px;
-                  font-weight: 700;  
-            }
-            &__description{
-                  margin-bottom: 4em;
-                  
-                  p{ 
-            font-size: 12px;
-                  }
-            }
-            &__img{  
-                margin-right: -20px;
-                  @include sm  {
-                        margin-right: -40px;
-                  }
-                  @include lg {
-                        width: 45%;
-                  }
-            }
+  text-align: center;
+  @include lg {
+    text-align: left;
   }
 
-  
+  &__overlay {
+    background-image: url(../images/categories/accessories-hero-bg.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+  }
+
+  &__content {
+    padding-bottom: 50px;
+    max-width: 100%;
+    align-self: flex-start;
+    @include sm { 
+     width: 50%;
+    }
+    @include lg {
+      width: 700px;
+      max-width: 50%;
+    }
+  }
+
+  &__flex {
+    @include sm {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    @include lg {
+      text-align: left;
+    }
+    font-size: 22px;
+    @include s {
+      font-size: 30px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__description {
+    margin-bottom: 4em;
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+
+  &__img-wrap { 
+    padding-bottom: 100%;
+    position: relative; 
+    margin-left: auto;
+    margin-right: -20px;  
+    @include sm {
+      width: 50%;
+      padding-bottom: 65%;
+    }
+
+    @include lg { 
+      padding-bottom: 60%;
+    }
+    @include xl { 
+      padding-bottom: 50%;
+    }
+
+  }
+
+
+  &__img { 
+    position: absolute; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: right;
+    @include sm {
+      margin-right: -40px;
+    }
+    @include lg {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    img {
+      object-fit: contain;
+     max-height:100%;
+     max-width: 100%;
+    }
+  }
+}
+

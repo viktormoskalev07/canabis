@@ -21,8 +21,7 @@
 	}
 
 	.nav__item {
-		background-color: lighten($dark-green, 4%);
-
+		background-color: lighten($dark-green, 4%); 
 		@include lg {
 			background-color: transparent;
 		}
@@ -56,7 +55,7 @@
 		background-color: transparent;
 		border: none;
 		display: inline-flex;
-		align-items: center;
+		align-items: center; 
 	}
 }
 

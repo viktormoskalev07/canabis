@@ -39,7 +39,9 @@
     padding-bottom: 10px;
     font-family: $fontSecond;
     font-size: 14px;
-
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
     @media screen and(min-width: $md) {
       padding-bottom: 40px;
 
@@ -64,24 +66,28 @@
     }
   }
   &__img-wrap{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
   }
 
   &__img {
+    position: relative;
     display: flex;
-    align-items: center;
-    max-width: 566px;
+    align-items: center; 
     width: 100%;
     padding: 50px 0;
     background-color: $green;
     border-radius: 25px;
-    padding-bottom: 100%;
-    position: relative;
-    min-height: 410px;
-
+    padding-bottom: 100%; 
+    min-height: 410px; 
     @include sm{
       padding-bottom: 65%;
     }
@@ -93,6 +99,8 @@
     img {
       border-radius: 25px;
       max-height: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
 

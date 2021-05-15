@@ -31,26 +31,19 @@
 		display: inline-block;
 		text-align: left;
 		width: 90%;
-		font-weight: 500;
-		margin: 10px 20px;
+		font-weight: 500; 
 		transition: 0.3s;
 		color: $light-white;
 		font-size: 20px;
-		padding: 2px 10px;
-		
-
+		padding: 22px 10px; 
 		@include s {
-			font-size: 30px;
-			margin: 20px;
-		}
-
+			font-size: 30px; 
+		} 
 		font-family: Druk Wide;
 		line-height: 42px;
 		letter-spacing: 0.2px;
 
-		@include lg {
-			margin: 20px 10px;
-			padding: 0;
+		@include lg {  
 			color: $dark-green;
 			width: auto;
 			font-weight: 700;
@@ -58,11 +51,7 @@
 			font-size: 14px;
 			position: relative;
 		}
-
-		@include xl {
-			margin: 20px;
-		}
-
+ 
 		&:hover {
 			background-color: lighten($dark-green, 10%);
 			transition: 0.2s;
