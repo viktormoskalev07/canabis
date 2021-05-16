@@ -1,10 +1,21 @@
 
 
 .blog-section {
+  position: relative;
   color: $light-white;
   display: flex;
   align-items: center;
   justify-content: center;
+  @include s {
+    padding:40px 10px;
+  }
+  @include md {
+    padding: 80px 10px;
+  }
+  @include lg {
+    padding: 160px 10px;
+  }
+
 
   &__hero-bg-img {
     position: absolute;
@@ -12,11 +23,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
-    top: 100px;
-
+    z-index: -1;  
     img {
       height: 100%;
+      width: 100%;
       display: block;
       object-fit: cover;
     }
@@ -48,6 +58,7 @@
   }
 
   &__title {
+    max-width: 900px;
     text-align: center;
     @media screen and(min-width: $s) {
       font-weight: 500;
@@ -226,4 +237,62 @@
     position: relative;
     height: 400px;
   }
+}
+
+
+.blog-page-preview{
+  background: linear-gradient(163.93deg, #3A5F57 -10.34%, rgba(162, 199, 179, 0) 175.11%);
+  padding: 20px 10px;
+  margin-bottom: 50px;
+  height: 250px;
+  @include lg {
+ height: 382px;
+ margin-bottom: 100px;
+  }
+  
+  border-radius: 25px;
+position: relative;
+    &__img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 25px;
+      overflow: hidden;
+      img{
+          height: 100%;
+          width: 100%;
+      }
+     }
+     &__container{
+       position: relative;
+      text-align: center;
+      color: #E7F8F4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      max-width: 400px;
+      @include lg {
+        max-width: 700px;
+      }
+      margin-left: auto;
+      margin-right: auto; 
+     }
+     &__title{
+      font-family: Druk Wide;
+      font-size: 14px;
+      @include s{
+        font-size: 18px;  
+      }
+      text-align: center;
+      @include lg{
+          font-size: 30px; 
+      }
+      
+     }
+
 }

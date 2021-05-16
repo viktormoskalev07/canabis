@@ -1,6 +1,6 @@
 .hero {
   background-size: 100% 100%;
-  background-image: url(../images/hero-bg.jpg);
+  background: linear-gradient(40deg, #CBDFD6 1.75%, #77948C 100%);
   @include lg {
     padding-left: 50px;
     padding-top: 50px;
