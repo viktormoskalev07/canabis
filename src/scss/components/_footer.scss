@@ -28,21 +28,25 @@
       width: auto;
     }
   }
-  &__title{
+
+  &__title {
     display: block;
     font-family: $fontMain;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 12px;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
     letter-spacing: 1px;
+
     @media screen and(min-width: $lg) {
-      padding-bottom: 20px; 
+      padding-bottom: 20px;
     }
   }
-  &__text{   
+
+  &__text {
     margin: 0;
     padding-bottom: 10px;
+
     @media screen and(min-width: $md) {
       padding-bottom: 20px;
     }
@@ -54,7 +58,8 @@
 
     }
   }
-  &__list{
+
+  &__list {
     list-style: none;
     padding: 0;
     padding-right: 20px;
@@ -73,46 +78,56 @@
       @include sm {
         margin: 0;
       }
+
       @include md {
         padding-bottom: 10px;
       }
-    }    
+    }
+
     @media screen and(min-width: $lg) {
       padding-right: 30px;
     }
+
     @media screen and(min-width: $xl) {
       padding-right: 40px;
     }
-  }
-  &__link {
-    &::after {
-      content: '';
-      display: block;
-      border-bottom: 2px solid $light-white;
-      transform: scaleX(0);
-      transition: transform 250ms ease-in-out;
-    }
-    &:hover {
+
+    a {
+
       &::after {
-        transform: scaleX(1);
-        transform-origin: 0% 50%;
+        content: '';
+        display: block;
+        border-bottom: 2px solid $light-white;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
       }
-    } 
+
+      &:hover {
+        &::after {
+          transform: scaleX(1);
+          transform-origin: 0% 50%;
+        }
+      }
+    }
   }
-  &__bl{
+
+  &__bl {
     display: flex;
     padding-top: 25px;
     justify-content: space-between;
     border-top: 1px solid $light-white;
   }
-  &__copyright{
+
+  &__copyright {
     font-family: $fontSecond;
     font-size: 10px;
   }
-  &__social{
+
+  &__social {
     display: flex;
   }
-  &__icon{
+
+  &__icon {
     width: 20px;
     height: 20px;
     margin: 0 10px;
