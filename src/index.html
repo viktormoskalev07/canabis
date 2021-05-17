@@ -3,6 +3,7 @@
 }) 
  
          <section class="  hero">
+            <div class="section__texture"></div>
             <div class="hero__overlay">
                <div class="container">
                   <div class="pl-92-lg">
@@ -26,21 +27,23 @@
                               flagship store at the beginning of 2021 in the heart of Toronto, near the intersection
                               of Queen Street
                               and
-                              University. Come visit us today at 229 Queen St W!
+                              University. Come visit us today at <strong>229 Queen St W!</strong>
                            </p>
                         </div>
-                        <button class="button "> Shop now →</button> 
+
+                        <a href="#" class="button "> Shop now <span>→</span></a> 
                      </div> 
                   </div>
                </div>
                <figure class="hero__leaf"> <img src="images/canabis-leaf.png" alt=""></figure>
             </div>
          </section>
-         <section class="section  dark-bcg section-categories">
+         <section class="section  dark-bcg section-categories"> 
+      <div class=" section__texture"></div>
                <div class="container"> 
                   <h2 class="section__title light-color">Cannabis categories</h2>
                   <p class="section__subtitle light-color"> We’ve got Flower, Vapes, Extracts, Edibles, CBD, Topicals and Accessories!</p>
-                  <p class="light-color">
+                  <p class="section__subtitle light-color">
                      For years, the Toronto Cannabis community has been an enormous part of the city and it’s
                      been a
                      community
@@ -59,20 +62,24 @@
          img5:'images/slider/5.png',
          img6:'images/slider/6.png',
          text1:'FLOWER',
-         text2:'PRE_ROLLS',
+         text2:'PRE-ROLLS',
          text3:'VAPES',
          text4:'EDIBLES',
          text5:'CBD',
          text6:'ACCESORIES',
-
+         link1:'#',
+         link2:'#',
+         link3:'#',
+         link4:'edibles.html',
+         link5:'cbd.html',
+         link6:'accessories.html',
       }) 
 
                </div> 
          </section>
 
          <section class="section section-reviews general-bg">
-            <div class="general-bg__overlay"></div>
-          
+            <div class="general-bg__overlay"></div> 
             <div class="container">
                @@include('./html-templates/reviews.html',{
                   'title':'reviews'
@@ -80,14 +87,15 @@
             </div>
          </section>
 
-         <section class="section section_link-to-blog">
+   <section class="section section_link-to-blog">
+      <div class=" section__texture"></div>
       <div class="container"> 
          <h2 class="section__title">
             BLOG 
          </h2>
          <div class="row">
             @@include('./html-templates/card-link-to-blog.html',{
-               img:'images/blog/link-to-blog-1.jpg',
+               img:'images/blog/link-to-blog-1.png',
                title:' Outdoor Venues in Toronto to Enjoy Cannabis',
                date:' April 22, 2021',
             }) 
@@ -97,20 +105,22 @@
                date:'April 22, 2021',
             }) 
          </div>  
-         <p class="link-to-blog__link"> <a class="underline-hover" href="blog.html">  READ ALL ARTICLES → </a> </p>
+         <p class="link-to-blog__link"> <a class="underline-hover" href="blog.html">  READ ALL ARTICLES <span>→</span> </a> </p>
             @@include('./html-templates/shop-brend.html') 
         </div>
 
          </section>
    
-      
+         <section class="example">
+            <div class="container">
          @@include('./html-templates/example.html',{
             title: "Cannabis Edibles",
             text:"Are you looking for cannabis edibles in Toronto?<br><br>If you’re in the market for low dose THC chocolate, or maybe CBD gummies, even high THC products, we’ve got all the cannabis edibles you’re looking for.<br><br>All of our cannabis edibles are legal, licensed products and certified by Health Canada so rest assured that we’re a 100% legal dispensary.<br><br>That means that all of our cannabis edibles also come locked in child proof containers so that there’s no threat to any little rascals running around. That really helps us stand out from the illicit market because those products are not licensed, certified and don’t come in child proof packaging!",
             button:"Shop now",
             link:"#",
             img:"edibles.png",
-            alt:"edibles"
+            alt:"edibles",
+            order:'order-1'
      }) 
       
          @@include('./html-templates/example.html',{
@@ -119,39 +129,44 @@
             button:"Shop now",
             link:"#",
             img:"slider/1.png",
-            alt:"edibles"
+            alt:"edibles",
+            order:' '
      }) 
+  </div>
+</section>
 
-     <section class="section_parts">
-        <div class="container">
-             <div class="row">
-         <div class="col-lg-6">
-            <h2 class="section__title text-left-lg ">
+
+   <section class="section_parts">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6 text-center-sm text-left-lg">
+            <h2 class="section__title text-left-lg">
                Queen West Cannabis Store
             </h2>
-            <p class="section__description">Our company and our store is about taking our decades of knowledge of cannabis and helping honest people get what they want when they want it.  The Toronto Cannabis Authority was founded on that principle! <br> <br>
+            <p class="section__description text-tiny-font text-left-sm">Our company and our store is about taking our decades of knowledge of cannabis and helping honest people get what they want when they want it.  The Toronto Cannabis Authority was founded on that principle! <br> <br>
 
                What better way to encourage others to support Canadian businesses and Canadian culture than to buy great products right here in our city? <br> <br> 
                
                So how do we do it? With style, caché and a whole lot of hard work. Our team of expert budtenders know our menu options like the back of their hands. <br> <br>
                
                Toronto Cannabis Authority is located at the corner of Queen Street and University Avenue in the heart of downtown Toronto. Our address is 
-               229 Queen Street West, Toronto.</p>
-         </div> 
-         <div class="col-lg-6">
-            <div class="centering">
-            <figure class="  section__img">
-               <img src="images/square-map.jpg" alt="map">
-            </figure>
+               <strong>229 Queen Street West, Toronto.</strong></p>
+
+               <a href="near-me.html" class="button marg-t-b"> Shop now <span>→</span></a> 
+            </div> 
+            <div class="col-lg-6">
+               <div class="centering">
+               <figure class="  section__img">
+                  <img src="images/square-map.jpg" alt="map">
+               </figure>
             </div>
  
          </div>
       </div>
-        </div>
-    
+   </div>
 
-     </section>
-     
+</section>
+
 
       @@include('./html-templates/footer.html',{
       }) 

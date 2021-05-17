@@ -1,22 +1,41 @@
-@import "base";
+
 
 .blog-section {
+  position: relative;
   color: $light-white;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  @include s {
+    padding:40px 10px;
+  }
+  @include md {
+    padding: 80px 10px;
+  }
+  @include lg {
+    padding: 160px 10px;
+  }
+
 
   &__hero-bg-img {
     position: absolute;
-    z-index: -1;
-    top:100px;
-
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;  
     img {
+      height: 100%;
+      width: 100%;
       display: block;
-      width: 100vw;
-      height: 100vh;
       object-fit: cover;
+    }
+    &_radius{ 
+      top: auto;     
+      img{
+        border-radius: 25px;
+        max-height: 380px;
+      }
     }
   }
 
@@ -39,6 +58,7 @@
   }
 
   &__title {
+    max-width: 900px;
     text-align: center;
     @media screen and(min-width: $s) {
       font-weight: 500;
@@ -48,6 +68,13 @@
 
     @media screen and(min-width: $md) {
       font-size: 48px;
+    }
+    &_main{
+      max-width: 660px;
+      font-size: 18px;
+      @media screen and(min-width: $md) {
+        font-size: 30px;
+      }
     }
   }
 
@@ -170,12 +197,16 @@
   }
 
   &__info-link {
+    font-family: $fontSecond;
     font-weight: 600;
     font-size: 18px;
     line-height: 110%;
     text-decoration: underline;
     padding-left: 25px;
-    padding-bottom: 10px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   &__visit {
@@ -206,4 +237,62 @@
     position: relative;
     height: 400px;
   }
+}
+
+
+.blog-page-preview{
+  background: linear-gradient(163.93deg, #3A5F57 -10.34%, rgba(162, 199, 179, 0) 175.11%);
+  padding: 20px 10px;
+  margin-bottom: 50px;
+  height: 250px;
+  @include lg {
+ height: 382px;
+ margin-bottom: 100px;
+  }
+  
+  border-radius: 25px;
+position: relative;
+    &__img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 25px;
+      overflow: hidden;
+      img{
+          height: 100%;
+          width: 100%;
+      }
+     }
+     &__container{
+       position: relative;
+      text-align: center;
+      color: #E7F8F4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      max-width: 400px;
+      @include lg {
+        max-width: 700px;
+      }
+      margin-left: auto;
+      margin-right: auto; 
+     }
+     &__title{
+      font-family: Druk Wide;
+      font-size: 14px;
+      @include s{
+        font-size: 18px;  
+      }
+      text-align: center;
+      @include lg{
+          font-size: 30px; 
+      }
+      
+     }
+
 }

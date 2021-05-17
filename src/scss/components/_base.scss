@@ -74,6 +74,11 @@ h1, h2, h3 {
 body {
   background-color: $light-green;
   color: $dark-green;
+    @include lg {
+      overflow: auto !important;
+      padding: 0 !important;
+      //hide scroll when menu open , only mobile
+    }
 }
 
 .bg-accent {
@@ -169,8 +174,11 @@ img {
    background-color:$dark-green;
  }
 
+ .marg-t-b {
+   margin: 20px 0;
+ }
+
  .underline-hover{ 
-   
    &:hover{
         text-decoration: underline;
    }
@@ -185,14 +193,27 @@ img {
 
  .text-left-lg{
    @include lg {
-     text-align: left;
+     text-align: left !important;
    }
   }
+
   
  .text-center-lg {
    @include lg {
-     text-align: center;
+     text-align: center !important;
    }
+ }
+
+ .text-left-sm {
+   text-align: left;
+ }
+
+ .text-center-sm {
+   text-align: center;
+ }
+
+ .text-tiny-font {
+   font-size: .875rem;
  }
 
  .the-best-text{
@@ -208,3 +229,5 @@ img {
      font-size: 24px;
    }
  }
+
+ 

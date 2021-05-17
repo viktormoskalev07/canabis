@@ -1,8 +1,10 @@
 .shop-breand{
+  position: relative;
   background-image: url("../images/brend-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0;
+  background: linear-gradient(300deg, #CBDFD6 10.75%, #6c948a 100%);
+  padding-top: 50px;
   &__container{
   	max-width: 1000px;
   	margin: 0 auto;
@@ -21,19 +23,35 @@
   &__block{
   	display: flex;
   	flex-wrap: wrap;
-  	justify-content: space-between; 
+    justify-content: space-around;  	 
+    align-items: center;
+    padding: 0 40px;
+    @media screen and(min-width: $md) {
+      justify-content: space-between;
+    }
+    @media screen and(min-width: $lg) {
+      padding: 0;
+    }
   }
   
   &__logo{
-  	width: 50%;
+  	width: 38%;
   	text-align: center;
-  	padding-bottom: 60px;
+    padding-bottom: 60px;
+    img{
+      max-height: 150px;
+    }
   	@media screen and(min-width: $md) {
-        width: 33.3%; 
+        width: 28%; 
   	}
   	@media screen and(min-width: $lg) {
-        width: 25%; 
+        width: 21%; 
         padding-bottom: 100px;
   	}
+    &_height{
+      img{
+        max-height: 90px;
+      }      
+    }
   }
 } 

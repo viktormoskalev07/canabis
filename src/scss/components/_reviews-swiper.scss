@@ -6,7 +6,7 @@
 
     @include md {
       padding-bottom: 120px;
-      padding-top: 50px;
+      padding-top: 15px;
     }
   }
 
@@ -63,6 +63,10 @@
   &__rating {
     text-align: center;
 
+    @include lg {
+      margin-bottom: 48px;
+    }
+
     svg {
       margin: 0 5px;
     }
@@ -77,10 +81,13 @@
     left: 0;
 
     @include md {
-      top: calc(-48px - 1em);
+      top: calc(-60px - 1em);
       right: 0;
       left: initial;
       bottom: initial;
+    }
+    @include xxl {
+      top: calc(-98px - 1em);
     }
   }
 

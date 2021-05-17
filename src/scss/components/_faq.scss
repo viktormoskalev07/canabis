@@ -1,4 +1,4 @@
-@import "base";
+// @import "base";
 
 .faq {
   &__hero {
@@ -38,10 +38,14 @@
   }
 
   &__accordion {
-    padding-top: 90px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+    @media screen and(min-width: $md) {
+      padding-top: 90px;
+      padding-bottom: 80px;
+    }
   }
 
   &__accordion-container {

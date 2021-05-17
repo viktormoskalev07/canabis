@@ -8,7 +8,7 @@ $main-button-hover: rgb(9, 65, 9);
     padding: 12px 70px;
   }
   @include lg {
-    padding: 12px 80px;
+    padding: 17px 94px;
   }
   background-color: $main-button;
   border: solid $main-button;
@@ -24,13 +24,21 @@ $main-button-hover: rgb(9, 65, 9);
   text-align: center;
   text-transform: uppercase;
 
+  @include lg {
+    font-size: 24px;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: text-top;
+  }
+
   &:hover {
     background-color: lighten($dark-green, 10%);
     border-color: lighten($dark-green, 10%);
 
     span {
       transform: translateX(2px);
-      display: inline-block;
     }
   }
 

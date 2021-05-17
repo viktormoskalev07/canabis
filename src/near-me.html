@@ -7,24 +7,24 @@
  
       <div class="container"> 
         @@include('./html-templates/header.html',{
-        })  
+        })   
       </div> 
-  </div>
-  
-   
-  
+ 
+    
   <section class="section section-article section-article--low-pad general-bg text-center-lg">
-    <div class="general-bg__overlay"></div>
-  
-    <div class="container">
-      <h2 class="section-reviews__title hero__title">Visit Our Location at 229 Queen Street West</h2>
-  
-      <p>Toronto Cannabis Authority is located at the corner of Queen Street and University Avenue in the heart of downtown Toronto. Our address is 229 Queen Street West, Toronto.
-
-        Toronto Cannabis Authority provides safe, accessible cannabis through a bricks and mortar store and we can also do cannabis delivery within Toronto!
-        
-        We sell high-quality and innovative cannabis products in a safe, clean, and convenient environment. Our goal is to provide safe and effective access for the general public to high quality and safe recreational cannabis.</p>
-  
+    <div class="general-bg__overlay"></div>  
+     <div class="container">
+      <h2 class="section-reviews__title hero__title">Dispensary Near Me</h2>
+      <h3 class="hero__title near-me__sub-title">Looking for a Toronto Dispensary Near Me?</h3>
+      <div class="near-me__wrap">
+        <p>Toronto Cannabis Authority is located at the corner of Queen Street and University Avenue in the heart of downtown Toronto. Our address is 229 Queen Street West, Toronto.</p>
+        <p>
+          Toronto Cannabis Authority provides safe, accessible cannabis through a bricks and mortar store and we can also do cannabis delivery within Toronto!
+        </p>
+        <p>
+          We sell high-quality and innovative cannabis products in a safe, clean, and convenient environment. Our goal is to provide safe and effective access for the general public to high quality and safe recreational cannabis.
+        </p>
+      </div> 
       <div class="section-article__img section-article__img--mb">
         <img class="v-tablet" src="images/contact-store/image-map.png" alt="map">
         <img class="v-mobile" src="images/contact-store/image-map-mobile.png" alt="map">
@@ -32,11 +32,85 @@
   
       <a href="#" class="button button--fulls"> contacts <span>→</span></a>
     </div>
-  
-   
   </section>
-   
+</div>
+
+<section class="toronto">
+  <div class="container">
+      @@include('./html-templates/toronto.html',{
+      img:"the-best-weed-in-toronto.png",
+      alt:"the-best-weed-in-toronto",
+      title:"The Best Weed in Toronto",
+      text:"Our team is highly trained and experienced and we ensure all of our clients receive consistent, quality cannabis products like pre-rolls, edibles, THC gummies, CBD beverages and many more.<br><br>Let us introduce you to our team, our prices, our services and why Toronto Cannabis Authority should be your number one choice.<br><br>We sell all the cannabinoid-centric products you can think of like concentrates wax, shatter, tinctures, capsules, cookies, brownies — even cannabis baking products!<br><br>We have been in and around Toronto's cannabis community for decades now, and finally we can legally open our doors and push out our favorite cannabis products to as many people as possible. ",
+    }) 
+    <div class="change-order">
+       @@include('./html-templates/toronto.html',{
+        img:"marijuana-in-toranto.png",
+        alt:"marijuana-in-toranto",
+        title:"Marijuana in Toronto",
+        text:"It is not surprising to see that cannabis became legal in Canada and we’d like to think we had a small part to play with our years of activism for legalization!<br>A majority of Canadians have tried cannabis and are in favour of the use of marijuana.<br><br>Nowhere is this more evident than in Toronto where new dispensaries are popping up left and right, but we really believe we are unique.<br><br>Unlike most cannabis dispensaries in Toronto, we are offering something completely different to Canadians – a wide variety of cannabis products at incredibly low prices with a huge variety of styles and products to choose from. ",
+      }) 
+    </div>
+      
+     @@include('./html-templates/toronto.html',{
+      img:"the-toronto-cannabis-difference.png",
+      alt:"the-toronto-cannabis-difference",
+      title:"The Toronto Cannabis Authority Difference",
+      text:"Toronto Cannabis Authority has been in business since 2021 and since then we have established a solid reputation within the Toront, Ontario market for our exceptional product & service.<br><br>We are a full service cannabis store, with knowledgeable staff, a clean store & marketplace, proper equipment, and quality product.<br><br>This way we can provide our customers with a first rate service that shortens the time it takes for them to purchase their desired product. We understand the importance of customer service and we strive to provide it to all individuals who visit our store or business location. Our customers come from all walks of life.<br><br>Some are young, some are in their twilight, some are life long recreational users, and others are former medical patients. Some just want to purchase their very first legal product, some live outside of Toronto and just have to experience legal cannabis for the first time!<br><br>Visit our website for not only product reviews but information like interviews with cannabis experts and events being held by TCA!",
+    }) 
+    </div>     
+</section>
+
+<section class="faq__accordion">
+  <div class="faq__accordion-container">
+    <h2 class="section-reviews__title hero__title">Some Questioned You’ve Frequently Asked Us</h2>
+      <div class="accordion">
+      @@include('./html-templates/accordion.html',{
+      titleAccordion:"What is the difference between THC and CBD?",
+      contentAccordion:"The difference between THC and CBD comes down to one important consideration for most people, are you looking for an intoxicating effect or not?<br>THC gives you an effect that you will feel, while CBD has no intoxicating effect whatsoever. People report feelings of calmness after ingesting CBD and that is considered a psychoactive effects, but not intoxication.",
+      })
+
+      @@include('./html-templates/accordion.html',{
+      titleAccordion:"Where are you located?",
+      contentAccordion:"Toronto Cannabis Authority is located 229 Queen Street West, Toronto.",
+      })
+
+      @@include('./html-templates/accordion.html',{
+      titleAccordion:"Do you have sativa, indica and hybrid.",
+      contentAccordion:"Yes we do! We would also love to explain the different options you have with terpenes and how they will affect your overall experience with any cannabis consumption.",
+      })
+
+      @@include('./html-templates/accordion.html',{
+      titleAccordion:"Do you do weed delivery?",
+      contentAccordion:"Yes, we can legally deliver cannabis to Canadians and we limit our delivery to within a 3km radius of the store.",
+      })
+
+      @@include('./html-templates/accordion.html',{
+      titleAccordion:"How Do I Order Cannabis With Toronto Cannabis Authority",
+      contentAccordion:"If you’re looking to order cannabis at our store, please do so on the site at <a href='https://www.torontocannabisauthority.ca' target='_blanck'>www.torontocannabisauthority.ca</a> or call us at the store!",
+      })
+
+      @@include('./html-templates/accordion.html',{
+      titleAccordion:"What weed products will work best for me?",
+      contentAccordion:"It’s impossible to answer that question without knowing what type of effect you’re looking for, your experience with cannabis, your body type, and a list of other important considerations!<br><br>Please come in or give us a call so we can help you decide better!",
+      })
+      </div>
+  </div>
+</section>
   
-  
-  @@include('./html-templates/footer.html',{
-  }) 
+<section class="section cannabis-authority__container">
+  <div class="container">
+      <div class="cannabis-authority">
+          <h3 class="section-reviews__title hero__title cannabis-authority__title">TORONTO CANNABIS <br> AUTHORITY</h3>
+          <div class="cannabis-authority__caption">
+              <p>Come visit us at the Toronto Cannabis Authority, your friendly local cannabis store located right downtown at the corner of Queen Street and University. Our address is, 229 Queen St W, Toronto.</p>
+              <p>Our cannabis connoseiur budtenders will help you find the right product for you!</p>
+          </div>
+
+          <a href="#" class="button "> Shop now <span>→</span></a>
+      </div>
+  </div>
+</section>
+
+@@include('./html-templates/footer.html',{
+}) 
