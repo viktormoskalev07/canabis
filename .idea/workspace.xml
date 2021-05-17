@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="" />
+    <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="fix images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,10 +42,11 @@
       <recent name="$PROJECT_DIR$/src/scss/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images/categories" />
       <recent name="$PROJECT_DIR$/src/images/cbd" />
-      <recent name="$PROJECT_DIR$/src/images/contact-store" />
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/dist/images" />
+      <recent name="$PROJECT_DIR$/src/images/edibles" />
+      <recent name="$PROJECT_DIR$/src/images/beverages" />
+      <recent name="$PROJECT_DIR$/src/images/accessories" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592670069811</updated>
       <workItem from="1592670075018" duration="6000" />
+      <workItem from="1621235315635" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="del dist">
       <created>1620916347075</created>
@@ -122,7 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620990356201</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix accordion">
+      <created>1620990704982</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1620990704982</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix images">
+      <created>1621001433940</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621001433940</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix images">
+      <created>1621005003379</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621005003379</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,9 +157,9 @@
     <MESSAGE value="del dist" />
     <MESSAGE value="added AUTHORITY" />
     <MESSAGE value="created cbd" />
-    <MESSAGE value="fix images" />
     <MESSAGE value="fix accordion" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix accordion" />
+    <MESSAGE value="fix images" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix images" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
