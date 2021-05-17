@@ -3,28 +3,29 @@
   background-color:$dark-green;
   color:$light-white;
   &__wrap{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: 1px solid $light-white;
+    width: 100%;    
     padding-bottom: 30px;
-    margin-bottom: 25px;
+    max-width: 1000px;
+    @media screen and(min-width: $lg) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
   }
   &__block{
-    width: 100%;
     text-align: center;
     font-family: $fontSecond;
     font-weight: 400;
     font-size: 12px;
-    padding: 0 15px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
+    max-width: 400px;
+    margin: 0 auto;
     @media screen and(min-width: $sm) {
-      width: 33%;
-      padding: 0 15px;
       text-align: left;
     }
-    @media screen and(min-width: $xl) {
-      width: 22%;
+    @media screen and(min-width: $lg) {
+      max-width: none;
+      width: auto;
     }
   }
   &__title{
@@ -47,11 +48,10 @@
     }
   }
   &__flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     @media screen and(min-width: $sm) {
-      justify-content: start;
+      display: flex;
+      flex-wrap: wrap;
+
     }
   }
   &__list{
@@ -59,11 +59,17 @@
     padding: 0;
     padding-right: 20px;
     margin: 0; 
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    @media screen and(min-width: $lg) {
+      width: auto;
+      max-width: none;
+    }
     li{
-      margin: 0 auto;
       width: max-content;
       padding-bottom: 5px;
-
+      margin: 0 auto;
       @include sm {
         margin: 0;
       }
@@ -95,7 +101,9 @@
   }
   &__bl{
     display: flex;
+    padding-top: 25px;
     justify-content: space-between;
+    border-top: 1px solid $light-white;
   }
   &__copyright{
     font-family: $fontSecond;
