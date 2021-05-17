@@ -1,177 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="created vapes">
-      <change afterPath="$PROJECT_DIR$/dist/accessories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/beverages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/blog-articles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/cbd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/contact-store.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/edibles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk-WideMedium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk-WideMedium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/DrukWide/DrukWide-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/DrukWide/DrukWide-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/BikeTour.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/HighPark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/SugarBeach.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/TorontoZoo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/TrinityBellwoodsPark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/accessories/Bongs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/accessories/CleaningStorage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/accessories/Grinders.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/accessories/RollingPapers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/accessories/SmokingPipes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/beverages/CBDDrinks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/beverages/Dissolvable.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/beverages/DrinkableCannabis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/beverages/LowDoseDrinks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/blog/Outdoor_Venues.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/blog/Understanding_Cannabis_Concentrates.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/blog/link-to-blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/blog/link-to-blog-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/blog/link-to-blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/blogS1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/canabis-leaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/categories/accessories.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/categories/beverages.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/categories/cbd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/categories/ediblestca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/cbd/CBDCapsules.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/cbd/CBDOil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/cbd/CBDPreRolls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/cbd/CBDTopicals.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/contact-store/image-149.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/contact-store/image-150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/contact-store/image-map-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/contact-store/image-map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/edibles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/edibles/EDIBLES.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/edibles/EdibleGummies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/edibles/LowDoseEdibles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/hero-over.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/dropdown-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/icons/up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/image-19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/Dosist-Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/Houseplant-Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/TopLeaf-Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/brokencoast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/cove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/figr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/hexo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/ogen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/pax.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/redecan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/shred.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/logo/tweed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/near-me/marijuana-in-toranto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/near-me/the-best-weed-in-toronto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/near-me/the-toronto-cannabis-difference.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/slider/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/slider/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/slider/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/slider/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/slider/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/slider/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/square-map.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/images/white_plaster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/swiper-bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/near-me.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/reviews-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html-templates/toronto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/blog/link-to-blog-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/categories/vapestca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo/Dosist-Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo/Houseplant-Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo/TopLeaf-Green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo/brokencoast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo/tweed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/near-me/marijuana-in-toranto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/near-me/the-best-weed-in-toronto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/near-me/the-toronto-cannabis-difference.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/vapes/DRIEDFLOWER.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/vapes/EXTRACTVAPES.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/vapes/VAPEDEVICES.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_near-me.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_toronto.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vapes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="874407c0-24dc-4f64-8725-7be428ba4e28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/categories/preRollstca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/preRolls/CBDPREROLLS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/preRolls/CHEAPPREROLLS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/preRolls/HIGHTHCPREROLLS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/preRolls.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog-articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog-articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact-store.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact-store.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/blog-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/blog-block.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/blog-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/blog-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/card-categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/card-categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/hero-categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/hero-categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/section-accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/section-accessories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/shop-brend.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/shop-brend.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html-templates/swiper-categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html-templates/swiper-categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/blog-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/brend-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/categories/accessories-hero-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/categories/beverages-hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/HEXO.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo/HEXO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/broken-coast.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/cove.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo/cove.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/dosist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/figr.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo/figr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/houseplant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/ogen.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo/ogen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/pax.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo/pax.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/redecan.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo/redecan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/shred.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logo/shred.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/tiveed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo/topleaf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/white_plaster 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/white_plaster.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/near-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/near-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reviews-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/reviews-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_cannabis-authority.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_cannabis-authority.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_faq.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_general-bg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_general-bg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_reviews-swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_reviews-swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section-article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_swiper-categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_swiper-categories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/example.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/example.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/shop-brend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/shop-brend.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/accessories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/beverages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/blog-articles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cbd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact-store.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/edibles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk-WideMedium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/Druk-WideMedium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/DrukWide-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/DrukWide/DrukWide-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/BikeTour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/HighPark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/SugarBeach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/TorontoZoo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/TrinityBellwoodsPark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/accessories/Bongs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/accessories/CleaningStorage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/accessories/Grinders.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/accessories/RollingPapers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/accessories/SmokingPipes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/beverages/CBDDrinks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/beverages/Dissolvable.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/beverages/DrinkableCannabis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/beverages/LowDoseDrinks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/blog/Outdoor_Venues.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/blog/Understanding_Cannabis_Concentrates.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/blog/link-to-blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/blog/link-to-blog-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/blog/link-to-blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/blogS1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/canabis-leaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/categories/accessories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/categories/beverages.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/categories/cbd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/categories/ediblestca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/cbd/CBDCapsules.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/cbd/CBDOil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/cbd/CBDPreRolls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/cbd/CBDTopicals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/contact-store/image-149.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/contact-store/image-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/contact-store/image-map-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/contact-store/image-map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/edibles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/edibles/EDIBLES.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/edibles/EdibleGummies.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/edibles/LowDoseEdibles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/hero-over.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/dropdown-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/image-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/Dosist-Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/Houseplant-Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/TopLeaf-Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/brokencoast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/cove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/figr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/hexo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/ogen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/pax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/redecan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/shred.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/logo/tweed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/near-me/marijuana-in-toranto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/near-me/the-best-weed-in-toronto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/near-me/the-toronto-cannabis-difference.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/slider/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/slider/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/slider/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/slider/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/slider/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/slider/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/square-map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/white_plaster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/swiper-bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/near-me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/reviews-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vapes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/vapes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +110,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -200,6 +135,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss/components" />
@@ -211,11 +147,11 @@
       <recent name="$PROJECT_DIR$/src/scss/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images/vapes" />
+      <recent name="$PROJECT_DIR$/src/images/preRolls" />
       <recent name="$PROJECT_DIR$/src/images/categories" />
+      <recent name="$PROJECT_DIR$/src/images/vapes" />
       <recent name="$PROJECT_DIR$/src/images/cbd" />
       <recent name="$PROJECT_DIR$/src/images/edibles" />
-      <recent name="$PROJECT_DIR$/src/images/beverages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -316,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621005003379</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="created vapes">
+      <created>1621237779591</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621237779591</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
