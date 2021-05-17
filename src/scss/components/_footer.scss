@@ -12,6 +12,10 @@
       flex-wrap: wrap;
     }
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4062ace5328ac92a5bef06e45e77bd1e06ec0f32
   &__block{
     text-align: center;
     font-family: $fontSecond;
@@ -61,7 +65,12 @@
 
   &__list {
     list-style: none;
+<<<<<<< HEAD
     padding: 0;    
+=======
+    padding: 0;
+    padding-right: 20px;
+>>>>>>> 4062ace5328ac92a5bef06e45e77bd1e06ec0f32
     margin: 0; 
     max-width: 200px;
     width: 100%;
