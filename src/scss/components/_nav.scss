@@ -21,16 +21,26 @@
 			flex-direction: row;
 			justify-content: flex-end;
 		}
-
-		justify-content: space-between;
 		ul{
 			list-style-type: none;
 			padding: 0;
+			padding-bottom: 20px;
 		}
 	} 
 	.current-menu-item {
-		opacity: 0.7;
 		pointer-events: none;
+		text-decoration: underline;
+
+		@include lg {
+			text-decoration: none;
+
+			a {
+				color: darken($dark-green, 20%);
+				&::after {
+					transform: scaleX(1) translateY(5px) !important;
+				}
+			}
+		}
 	}
 
 	.menu-item {
@@ -44,17 +54,13 @@
 		transition: 0.3s;
 		color: $light-white;
 		font-size: 20px; 
-		
-		a{
-			padding: 22px 10px; 
-			display: inline-block; 
-		}
-		@include s {
-			font-size: 30px; 
-		} 
 		font-family: Druk Wide;
-		line-height: 42px;
+		line-height: 1.2em;
 		letter-spacing: 0.2px;
+
+		@include s {
+			font-size: 24px; 
+		} 
 
 		@include lg {  
 			color: $dark-green;
@@ -64,30 +70,37 @@
 			font-size: 14px;
 			position: relative; 
 		}
+
+		
+		a{
+			padding: 14px 10px; 
+			display: inline-block; 
+			position: relative; 
  
-		&:hover {
-			background-color: lighten($dark-green, 10%);
-			transition: 0.2s;
-
-			@include lg {
-				 
-				background-color: transparent;
-				color: darken($dark-green, 20%);
-
-				&::after {
-					transform: scaleX(1) translateY(-15px);
-					
+			&:hover {
+				background-color: lighten($dark-green, 10%);
+				transition: 0.2s;
+	
+				@include lg {
+					 
+					background-color: transparent;
+					color: darken($dark-green, 20%);
+	
+					&::after {
+						transform: scaleX(1) translateY(5px);
+						
+					}
 				}
 			}
-		}
-
-		&::after {
-			content: '';
-			display: block;
-			border-bottom: 2px solid darken($dark-green, 20%);
-			transform: scaleX(0) translateY(-15px);
-			transition: transform 250ms ease-in-out;
-			transform-origin: 50% 50%;
+	
+			&::after {
+				content: '';
+				display: block;
+				border-bottom: 2px solid darken($dark-green, 20%);
+				transform: scaleX(0) translateY(5px);
+				transition: transform 250ms ease-in-out;
+				transform-origin: 50% 50%;
+			}
 		}
 	}
 
@@ -95,6 +108,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
+		margin-top: auto;
 
 		svg {
 
@@ -103,6 +117,7 @@
 
 		@include lg {
 			margin-left: 10px;
+			margin-bottom: auto;
 
 			svg {
 				height: 17px;
@@ -116,7 +131,6 @@
 
 		li { 
 			display: inline-block;
-			padding-top: 5px;
 
 			a {
 				display: inline-block;
@@ -173,6 +187,7 @@
 	.nav__menu {
 		transform: none;
 		transition: 0.2s;
+		overflow-y: auto;
 	}
 
 	.btn-menu {
@@ -183,7 +198,7 @@
 		}
 
 		&__row {
-			background-color: #fff;
+			background-color: $light-white;
 			margin: 0 !important;
 		}
 
