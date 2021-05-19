@@ -29,12 +29,12 @@ function togglenav() {
 // отключить прокрутку
 function hidescroll() {
   body.style.paddingRight = window.innerWidth - html.offsetWidth + "px";
-  body.style.overflow = "hidden";
+  body.classList.add('overflov-nav')
 }
 
 function showscroll() {
   body.style.paddingRight = 0;
-  body.style.overflow = "visible";
+  body.classList.remove('overflov-nav')
 }
 
 let scrolid = 0;
@@ -42,11 +42,11 @@ let scrolid = 0;
 function togglescroll() {
   if (scrolid == 0) {
     body.style.paddingRight = window.innerWidth - html.offsetWidth + "px";
-    body.style.overflow = "hidden";
+    body.classList.add('overflov-nav')
     scrolid = 1;
   } else {
     body.style.paddingRight = 0;
-    body.style.overflow = "visible";
+    body.classList.remove('overflov-nav')
     scrolid = 0;
   }
 }
@@ -155,3 +155,26 @@ if (document.querySelector('.accordion')) {
 	accordionInit()
 }
 // accordion
+
+
+//popup
+const popupAge =document.querySelector('.popup-age');
+if(!localStorage.getItem('age')){
+  document.body.classList.add('bloked-by-popup-age');
+  popupAge.style.display="flex";
+} else {
+  document.body.classList.remove('bloked-by-popup-age');
+}
+const popupAgeText =document.querySelector('.popup-age__text');
+document.querySelector('.button-age__yes-js').addEventListener('click' , closePopupAge);
+document.querySelector('.button-age__no-js').addEventListener('click' , noPopupAge);
+function closePopupAge(){
+  localStorage.setItem('age', 'true');
+  popupAge.style.display='none';
+  document.body.classList.remove('bloked-by-popup-age');
+}
+function noPopupAge(){
+  popupAgeText.innerHTML="Sorry, come back when you're 19."
+  document.querySelector('.buttons-age-js').innerHTML="";
+}
+//popup

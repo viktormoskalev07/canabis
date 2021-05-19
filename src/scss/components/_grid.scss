@@ -33,7 +33,15 @@
     }
 
 }
-
+ 
+    @for $i from 1 to 13 { 
+.col-#{$i}{
+    flex:0 0 100%/12*$i;
+    max-width: 100%/12*$i;
+}
+} 
+ 
+ 
  @include cols (sm , $sm);
  @include cols (md , $md);
  @include cols (lg , $lg);

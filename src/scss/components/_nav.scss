@@ -246,3 +246,10 @@
 	}
 
 }
+
+.overflov-nav{
+	overflow: hidden;
+		@include lg{
+			overflow: auto;
+		}
+}
